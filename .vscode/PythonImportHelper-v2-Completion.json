@@ -1,0 +1,2165 @@
+[
+    {
+        "label": "*",
+        "importPath": "turtle",
+        "description": "turtle",
+        "isExtraImport": true,
+        "detail": "turtle",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "count",
+        "kind": 5,
+        "importPath": "Day  018.Classwork.task4",
+        "description": "Day  018.Classwork.task4",
+        "peekOfCode": "count = int(input(\"Please enter quantity of how many numbers you want to enter: \"))\nnumbers = []\nfor i in range(count):\n    num = int(input(\"Please enter number: \"))\n    numbers.append(num)\nprint(sum(numbers))",
+        "detail": "Day  018.Classwork.task4",
+        "documentation": {}
+    },
+    {
+        "label": "numbers",
+        "kind": 5,
+        "importPath": "Day  018.Classwork.task4",
+        "description": "Day  018.Classwork.task4",
+        "peekOfCode": "numbers = []\nfor i in range(count):\n    num = int(input(\"Please enter number: \"))\n    numbers.append(num)\nprint(sum(numbers))",
+        "detail": "Day  018.Classwork.task4",
+        "documentation": {}
+    },
+    {
+        "label": "car_names",
+        "kind": 5,
+        "importPath": "Day  018.Classwork.task5",
+        "description": "Day  018.Classwork.task5",
+        "peekOfCode": "car_names = [\"Tesla Model S\", \"BMW M3\", \"Audi A4\", \"Porsche 911\", \"Mercedes-Benz S-Class\"]\nfirst_three = car_names[:3]\nlast_two = car_names[-2:]\nprint(\"First 3 elements:\", first_three)\nprint(\"Last 2 elements:\", last_two)\nthird_from_right = car_names[-3]\nfourth_from_right = car_names[-4]\nprint(\"Third element from the right:\", third_from_right)\nprint(\"Fourth element from the right:\", fourth_from_right)",
+        "detail": "Day  018.Classwork.task5",
+        "documentation": {}
+    },
+    {
+        "label": "first_three",
+        "kind": 5,
+        "importPath": "Day  018.Classwork.task5",
+        "description": "Day  018.Classwork.task5",
+        "peekOfCode": "first_three = car_names[:3]\nlast_two = car_names[-2:]\nprint(\"First 3 elements:\", first_three)\nprint(\"Last 2 elements:\", last_two)\nthird_from_right = car_names[-3]\nfourth_from_right = car_names[-4]\nprint(\"Third element from the right:\", third_from_right)\nprint(\"Fourth element from the right:\", fourth_from_right)",
+        "detail": "Day  018.Classwork.task5",
+        "documentation": {}
+    },
+    {
+        "label": "last_two",
+        "kind": 5,
+        "importPath": "Day  018.Classwork.task5",
+        "description": "Day  018.Classwork.task5",
+        "peekOfCode": "last_two = car_names[-2:]\nprint(\"First 3 elements:\", first_three)\nprint(\"Last 2 elements:\", last_two)\nthird_from_right = car_names[-3]\nfourth_from_right = car_names[-4]\nprint(\"Third element from the right:\", third_from_right)\nprint(\"Fourth element from the right:\", fourth_from_right)",
+        "detail": "Day  018.Classwork.task5",
+        "documentation": {}
+    },
+    {
+        "label": "third_from_right",
+        "kind": 5,
+        "importPath": "Day  018.Classwork.task5",
+        "description": "Day  018.Classwork.task5",
+        "peekOfCode": "third_from_right = car_names[-3]\nfourth_from_right = car_names[-4]\nprint(\"Third element from the right:\", third_from_right)\nprint(\"Fourth element from the right:\", fourth_from_right)",
+        "detail": "Day  018.Classwork.task5",
+        "documentation": {}
+    },
+    {
+        "label": "fourth_from_right",
+        "kind": 5,
+        "importPath": "Day  018.Classwork.task5",
+        "description": "Day  018.Classwork.task5",
+        "peekOfCode": "fourth_from_right = car_names[-4]\nprint(\"Third element from the right:\", third_from_right)\nprint(\"Fourth element from the right:\", fourth_from_right)",
+        "detail": "Day  018.Classwork.task5",
+        "documentation": {}
+    },
+    {
+        "label": "greet_user",
+        "kind": 2,
+        "importPath": "Day  018.Classwork.task6",
+        "description": "Day  018.Classwork.task6",
+        "peekOfCode": "def greet_user(name):\n    names_list = [name, name]\n    for name_in_list in names_list:\n        if name_in_list == name:\n            print(\"hello admin\")\n        else:\n            print(\"hello user\")\nmy_name = \"John\"\ngreet_user(my_name)",
+        "detail": "Day  018.Classwork.task6",
+        "documentation": {}
+    },
+    {
+        "label": "my_name",
+        "kind": 5,
+        "importPath": "Day  018.Classwork.task6",
+        "description": "Day  018.Classwork.task6",
+        "peekOfCode": "my_name = \"John\"\ngreet_user(my_name)",
+        "detail": "Day  018.Classwork.task6",
+        "documentation": {}
+    },
+    {
+        "label": "display_info",
+        "kind": 2,
+        "importPath": "Day  020.Classwork.task1",
+        "description": "Day  020.Classwork.task1",
+        "peekOfCode": "def display_info():\n    name ='ilia'\n    surname = 'kviciani'\n    age = '13'\nprint(display_info)",
+        "detail": "Day  020.Classwork.task1",
+        "documentation": {}
+    },
+    {
+        "label": "hello",
+        "kind": 2,
+        "importPath": "Day  020.Homework.task2",
+        "description": "Day  020.Homework.task2",
+        "peekOfCode": "def hello():\n    print(\"GOA Best\")\nhello()",
+        "detail": "Day  020.Homework.task2",
+        "documentation": {}
+    },
+    {
+        "label": "sum",
+        "kind": 2,
+        "importPath": "Day  020.Homework.task3",
+        "description": "Day  020.Homework.task3",
+        "peekOfCode": "def sum(a,b):\n    print(a+b)\nsum(10+70)",
+        "detail": "Day  020.Homework.task3",
+        "documentation": {}
+    },
+    {
+        "label": "to_string",
+        "kind": 2,
+        "importPath": "Day  020.Homework.task5",
+        "description": "Day  020.Homework.task5",
+        "peekOfCode": "def to_string(value):\n    print(value)\nto_string=('ilia')",
+        "detail": "Day  020.Homework.task5",
+        "documentation": {}
+    },
+    {
+        "label": "print_type",
+        "kind": 2,
+        "importPath": "Day  020.Homework.task6",
+        "description": "Day  020.Homework.task6",
+        "peekOfCode": "def print_type(x):\n    print(type(x))\nprint_type(23)\nprint_type('ilia')",
+        "detail": "Day  020.Homework.task6",
+        "documentation": {}
+    },
+    {
+        "label": "to_integer",
+        "kind": 2,
+        "importPath": "Day  020.Homework.task7",
+        "description": "Day  020.Homework.task7",
+        "peekOfCode": "def to_integer(value):\n    print(int(value))\nto_integer('28')",
+        "detail": "Day  020.Homework.task7",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_avarage",
+        "kind": 2,
+        "importPath": "Day  022.Classwork.task1",
+        "description": "Day  022.Classwork.task1",
+        "peekOfCode": "def calculate_avarage():\n    numbers = [1,2,3]\n    print(sum(numbers) /  len(numbers))\ncalculate_avarage()",
+        "detail": "Day  022.Classwork.task1",
+        "documentation": {}
+    },
+    {
+        "label": "joined_string",
+        "kind": 2,
+        "importPath": "Day  022.Classwork.task10",
+        "description": "Day  022.Classwork.task10",
+        "peekOfCode": "def joined_string(str1,str2):\n    result = str1 + str2\n    print(result)\njoined_string('mousvi' , 'ilia')",
+        "detail": "Day  022.Classwork.task10",
+        "documentation": {}
+    },
+    {
+        "label": "manual_sum",
+        "kind": 2,
+        "importPath": "Day  022.Classwork.task11",
+        "description": "Day  022.Classwork.task11",
+        "peekOfCode": "def manual_sum(numbers):\n    total_sum = 0\n    for number in numbers:\n        total_sum += number\n        return total_sum\nmy_list = [1,2,3,4,5]\nresult=manual_sum(my_list)\nprint(result)",
+        "detail": "Day  022.Classwork.task11",
+        "documentation": {}
+    },
+    {
+        "label": "my_list",
+        "kind": 5,
+        "importPath": "Day  022.Classwork.task11",
+        "description": "Day  022.Classwork.task11",
+        "peekOfCode": "my_list = [1,2,3,4,5]\nresult=manual_sum(my_list)\nprint(result)",
+        "detail": "Day  022.Classwork.task11",
+        "documentation": {}
+    },
+    {
+        "label": "reverse_string",
+        "kind": 2,
+        "importPath": "Day  022.Classwork.task12",
+        "description": "Day  022.Classwork.task12",
+        "peekOfCode": "def reverse_string(s):\n    return s[::-1]\nmy_string = \"sandro\"\nreversed_string = reverse_string(my_string)\nprint(reversed_string)",
+        "detail": "Day  022.Classwork.task12",
+        "documentation": {}
+    },
+    {
+        "label": "my_string",
+        "kind": 5,
+        "importPath": "Day  022.Classwork.task12",
+        "description": "Day  022.Classwork.task12",
+        "peekOfCode": "my_string = \"sandro\"\nreversed_string = reverse_string(my_string)\nprint(reversed_string)",
+        "detail": "Day  022.Classwork.task12",
+        "documentation": {}
+    },
+    {
+        "label": "reversed_string",
+        "kind": 5,
+        "importPath": "Day  022.Classwork.task12",
+        "description": "Day  022.Classwork.task12",
+        "peekOfCode": "reversed_string = reverse_string(my_string)\nprint(reversed_string)",
+        "detail": "Day  022.Classwork.task12",
+        "documentation": {}
+    },
+    {
+        "label": "rectangle_area",
+        "kind": 2,
+        "importPath": "Day  022.Classwork.task13",
+        "description": "Day  022.Classwork.task13",
+        "peekOfCode": "def rectangle_area(length,width):\n    area=length * width\n    return area\nlength=5\nwidth=30\narea = rectangle_area(length, width)\nprint(area)",
+        "detail": "Day  022.Classwork.task13",
+        "documentation": {}
+    },
+    {
+        "label": "area",
+        "kind": 5,
+        "importPath": "Day  022.Classwork.task13",
+        "description": "Day  022.Classwork.task13",
+        "peekOfCode": "area = rectangle_area(length, width)\nprint(area)",
+        "detail": "Day  022.Classwork.task13",
+        "documentation": {}
+    },
+    {
+        "label": "is_prime",
+        "kind": 2,
+        "importPath": "Day  022.Classwork.task14",
+        "description": "Day  022.Classwork.task14",
+        "peekOfCode": "def is_prime(number):\n    if number <= 1:\n        return False\n    if number <= 3:\n        return True\n    if number % 2 == 0 or number % 3 == 0:\n        return False\n    i = 5\n    while i * i <= number:\n        if number % i == 0 or number % (i + 2) == 0:",
+        "detail": "Day  022.Classwork.task14",
+        "documentation": {}
+    },
+    {
+        "label": {
+            "name": "",
+            "kind": 2,
+            "peekOfCode": "def  count_xmovnebi(a, i, e, o, u):\n    print(a, i, o, e, u)\nprint(count_xmovnebi)"
+        },
+        "kind": 2,
+        "importPath": "Day  022.Classwork.task15",
+        "description": "Day  022.Classwork.task15",
+        "peekOfCode": "def  count_xmovnebi(a, i, e, o, u):\n    print(a, i, o, e, u)\nprint(count_xmovnebi)",
+        "detail": "Day  022.Classwork.task15",
+        "documentation": {}
+    },
+    {
+        "label": "count_vowels",
+        "kind": 2,
+        "importPath": "Day  022.Classwork.task16",
+        "description": "Day  022.Classwork.task16",
+        "peekOfCode": "def count_vowels(s):\n    vowels = \"aeiou\"\n    count = 0\n    for char in s.lower():  \n        if char in vowels:\n            count += 1\n    return count\ntext = \"Hello, World!\"\nprint(f\" {count_vowels(text)}\")",
+        "detail": "Day  022.Classwork.task16",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Day  022.Classwork.task16",
+        "description": "Day  022.Classwork.task16",
+        "peekOfCode": "text = \"Hello, World!\"\nprint(f\" {count_vowels(text)}\")",
+        "detail": "Day  022.Classwork.task16",
+        "documentation": {}
+    },
+    {
+        "label": "convert_to_uppercase",
+        "kind": 2,
+        "importPath": "Day  022.Classwork.task17",
+        "description": "Day  022.Classwork.task17",
+        "peekOfCode": "def convert_to_uppercase(strings_list):\n    return [s.upper() for s in strings_list]\nexample_list = [\"hello\", \"world\", \"python\", \"is\", \"awesome\"]\nuppercase_list = convert_to_uppercase(example_list)\nprint(uppercase_list)",
+        "detail": "Day  022.Classwork.task17",
+        "documentation": {}
+    },
+    {
+        "label": "example_list",
+        "kind": 5,
+        "importPath": "Day  022.Classwork.task17",
+        "description": "Day  022.Classwork.task17",
+        "peekOfCode": "example_list = [\"hello\", \"world\", \"python\", \"is\", \"awesome\"]\nuppercase_list = convert_to_uppercase(example_list)\nprint(uppercase_list)",
+        "detail": "Day  022.Classwork.task17",
+        "documentation": {}
+    },
+    {
+        "label": "uppercase_list",
+        "kind": 5,
+        "importPath": "Day  022.Classwork.task17",
+        "description": "Day  022.Classwork.task17",
+        "peekOfCode": "uppercase_list = convert_to_uppercase(example_list)\nprint(uppercase_list)",
+        "detail": "Day  022.Classwork.task17",
+        "documentation": {}
+    },
+    {
+        "label": "manual_sum",
+        "kind": 2,
+        "importPath": "Day  022.Classwork.task2",
+        "description": "Day  022.Classwork.task2",
+        "peekOfCode": "def manual_sum(number_list):\n    sum=0\n    for num in number_list:\n        sum = sum + num\n    return sum\nprint(manual_sum([1,2,3,4,5,6,7,8]))",
+        "detail": "Day  022.Classwork.task2",
+        "documentation": {}
+    },
+    {
+        "label": "greet",
+        "kind": 2,
+        "importPath": "Day  022.Classwork.task3",
+        "description": "Day  022.Classwork.task3",
+        "peekOfCode": "def greet(name):\n    print('welcome ' + name)\ngreet(\"ilo\")",
+        "detail": "Day  022.Classwork.task3",
+        "documentation": {}
+    },
+    {
+        "label": "summary",
+        "kind": 2,
+        "importPath": "Day  022.Classwork.task4",
+        "description": "Day  022.Classwork.task4",
+        "peekOfCode": "def summary(num1 + num1):\n    print([1,2,3,40])",
+        "detail": "Day  022.Classwork.task4",
+        "documentation": {}
+    },
+    {
+        "label": "manual_max",
+        "kind": 2,
+        "importPath": "Day  022.Classwork.task5",
+        "description": "Day  022.Classwork.task5",
+        "peekOfCode": "def manual_max(num1 , num2):\n    if num1>num2: \n        return num1\n    elif num1<num2:\n        return num2\n    else:\n        return 'both number is eqvale'\nprint(manual_max(6 , 8))",
+        "detail": "Day  022.Classwork.task5",
+        "documentation": {}
+    },
+    {
+        "label": "print_numbers",
+        "kind": 2,
+        "importPath": "Day  022.Classwork.task6",
+        "description": "Day  022.Classwork.task6",
+        "peekOfCode": "def print_numbers(n):\n    for num in n:\n        if num % 2 == 0:\n            print('even:', num)\n        else:\n            print('odd:',num)\nprint_numbers([1,2,3,4,5,6,7,8,9,10])",
+        "detail": "Day  022.Classwork.task6",
+        "documentation": {}
+    },
+    {
+        "label": "print_even_numbers",
+        "kind": 2,
+        "importPath": "Day  022.Classwork.task7",
+        "description": "Day  022.Classwork.task7",
+        "peekOfCode": "def print_even_numbers(n):\n    for i in range(2, n + 1):\n        if i % 2 == 0:\n            print(i)\nprint_even_numbers(50)",
+        "detail": "Day  022.Classwork.task7",
+        "documentation": {}
+    },
+    {
+        "label": "sum",
+        "kind": 2,
+        "importPath": "Day  022.Classwork.task8",
+        "description": "Day  022.Classwork.task8",
+        "peekOfCode": "def sum(num1,num2):\n    result=num1+num2\n    print(result)\nsum(20,10)",
+        "detail": "Day  022.Classwork.task8",
+        "documentation": {}
+    },
+    {
+        "label": "sum",
+        "kind": 2,
+        "importPath": "Day  022.Classwork.task9",
+        "description": "Day  022.Classwork.task9",
+        "peekOfCode": "def sum(num1,num2):\n    result=num1+num2\n    print(result)\nsum(20,10)",
+        "detail": "Day  022.Classwork.task9",
+        "documentation": {}
+    },
+    {
+        "label": "random_number",
+        "kind": 2,
+        "importPath": "Day  022.Homework.task1",
+        "description": "Day  022.Homework.task1",
+        "peekOfCode": "def random_number(num):\n    return num + 5   \nprint(random_number(1))",
+        "detail": "Day  022.Homework.task1",
+        "documentation": {}
+    },
+    {
+        "label": "difference_max_min",
+        "kind": 2,
+        "importPath": "Day  022.Homework.task10",
+        "description": "Day  022.Homework.task10",
+        "peekOfCode": "def difference_max_min(nums):\n    if not nums:\n        return None\n    max_num = max(nums)\n    min_num = max(nums)\n    difference = max_num-min_num\n    return difference\nnums1 = [3, 6, 2, 9]\nnums2 = [6, 1, 9, 4, 10]\nnums3 = [-10, 0, 20, -30]",
+        "detail": "Day  022.Homework.task10",
+        "documentation": {}
+    },
+    {
+        "label": "nums1",
+        "kind": 5,
+        "importPath": "Day  022.Homework.task10",
+        "description": "Day  022.Homework.task10",
+        "peekOfCode": "nums1 = [3, 6, 2, 9]\nnums2 = [6, 1, 9, 4, 10]\nnums3 = [-10, 0, 20, -30]\nprint(difference_max_min(nums1))\nprint(difference_max_min(nums2))\nprint(difference_max_min(nums3))",
+        "detail": "Day  022.Homework.task10",
+        "documentation": {}
+    },
+    {
+        "label": "nums2",
+        "kind": 5,
+        "importPath": "Day  022.Homework.task10",
+        "description": "Day  022.Homework.task10",
+        "peekOfCode": "nums2 = [6, 1, 9, 4, 10]\nnums3 = [-10, 0, 20, -30]\nprint(difference_max_min(nums1))\nprint(difference_max_min(nums2))\nprint(difference_max_min(nums3))",
+        "detail": "Day  022.Homework.task10",
+        "documentation": {}
+    },
+    {
+        "label": "nums3",
+        "kind": 5,
+        "importPath": "Day  022.Homework.task10",
+        "description": "Day  022.Homework.task10",
+        "peekOfCode": "nums3 = [-10, 0, 20, -30]\nprint(difference_max_min(nums1))\nprint(difference_max_min(nums2))\nprint(difference_max_min(nums3))",
+        "detail": "Day  022.Homework.task10",
+        "documentation": {}
+    },
+    {
+        "label": "sum_of_elements",
+        "kind": 2,
+        "importPath": "Day  022.Homework.task11",
+        "description": "Day  022.Homework.task11",
+        "peekOfCode": "def sum_of_elements(list):\n    total = 0\n    for num in list:\n        total += num\n    return total\nprint(sum_of_elements([1, 2, 3, 4, 5]))\nprint(sum_of_elements([-1, 5, 7, -3]))\nprint(sum_of_elements([]))",
+        "detail": "Day  022.Homework.task11",
+        "documentation": {}
+    },
+    {
+        "label": "count_vowels",
+        "kind": 2,
+        "importPath": "Day  022.Homework.task12",
+        "description": "Day  022.Homework.task12",
+        "peekOfCode": "def count_vowels(s):\n    vowels = 'abcdefghijKLMN'\n    count = 0\n    for char in s:\n        if char in vowels:\n            count += 1\n    return count \nprint(count_vowels('hello world'))\nprint(count_vowels('goa best'))\nprint(count_vowels('programming'))",
+        "detail": "Day  022.Homework.task12",
+        "documentation": {}
+    },
+    {
+        "label": "square_list",
+        "kind": 2,
+        "importPath": "Day  022.Homework.task13",
+        "description": "Day  022.Homework.task13",
+        "peekOfCode": "def square_list(lst):\n    quared_list = []\n    for num in lst:\n        quared_list.append(num ** 2)\n    return square_list\nprint(square_list([2, 4]))\nprint(square_list([-1, 0, 1]))\nprint(square_list([5, 10, 15]))",
+        "detail": "Day  022.Homework.task13",
+        "documentation": {}
+    },
+    {
+        "label": "reverse_string",
+        "kind": 2,
+        "importPath": "Day  022.Homework.task14",
+        "description": "Day  022.Homework.task14",
+        "peekOfCode": "def reverse_string(s):\n    return s[::-1]\nprint(reverse_string('luka'))\nprint(reverse_string('ilia'))\nprint(reverse_string(''))",
+        "detail": "Day  022.Homework.task14",
+        "documentation": {}
+    },
+    {
+        "label": "is_even",
+        "kind": 2,
+        "importPath": "Day  022.Homework.task15",
+        "description": "Day  022.Homework.task15",
+        "peekOfCode": "def is_even(num):\n    if num % 2 == 0:\n        return True\n    else:\n        return False\nprint(is_even(4))\nprint(is_even(12))\nprint(is_even(8))\nprint(is_even(5))",
+        "detail": "Day  022.Homework.task15",
+        "documentation": {}
+    },
+    {
+        "label": "longest_string",
+        "kind": 2,
+        "importPath": "Day  022.Homework.task16",
+        "description": "Day  022.Homework.task16",
+        "peekOfCode": "def longest_string(list):\n    result = ''\n    for i in list:\n        if len(i) > len(result):\n            result = i\n    return result\nprint(longest_string(['pencil','pen','beckraund color']))",
+        "detail": "Day  022.Homework.task16",
+        "documentation": {}
+    },
+    {
+        "label": "find_smallest_number",
+        "kind": 2,
+        "importPath": "Day  022.Homework.task17",
+        "description": "Day  022.Homework.task17",
+        "peekOfCode": "def find_smallest_number(list):\n    if not list:\n        return None\n    smallest = list[0]\n    for num in list[1:]:\n        if num < smallest:\n            smallest = num\n    return smallest        \nprint(find_smallest_number([4, 2, 7, 1, 5]))\nprint(find_smallest_number([-1, -5, -3, -7]))",
+        "detail": "Day  022.Homework.task17",
+        "documentation": {}
+    },
+    {
+        "label": "gcd",
+        "kind": 2,
+        "importPath": "Day  022.Homework.task18",
+        "description": "Day  022.Homework.task18",
+        "peekOfCode": "def gcd(a, b):\n    while b != 0:\n        a, b = b, a  % b\n    return abs(a)    \nprint(gcd(1, 2))\nprint(gcd(3, 5))\nprint(gcd(9, 7))",
+        "detail": "Day  022.Homework.task18",
+        "documentation": {}
+    },
+    {
+        "label": "uppercase_string",
+        "kind": 2,
+        "importPath": "Day  022.Homework.task19",
+        "description": "Day  022.Homework.task19",
+        "peekOfCode": "def uppercase_string(s):\n    return s.upper()\nprint(uppercase_string(\"Hello World\"))",
+        "detail": "Day  022.Homework.task19",
+        "documentation": {}
+    },
+    {
+        "label": "multiply",
+        "kind": 2,
+        "importPath": "Day  022.Homework.task2",
+        "description": "Day  022.Homework.task2",
+        "peekOfCode": "def multiply(num1,num2):\n    return num1 * num2\nprint(multiply(4, 4))",
+        "detail": "Day  022.Homework.task2",
+        "documentation": {}
+    },
+    {
+        "label": "arithmetic_mean",
+        "kind": 2,
+        "importPath": "Day  022.Homework.task20",
+        "description": "Day  022.Homework.task20",
+        "peekOfCode": "def arithmetic_mean(numbers):\n    if not numbers:\n        return 0\n    total_sum = sum(numbers)\n    num_elements = len(numbers)\n    mean = total_sum / num_elements\n    return mean\ninput_list = [1, 5, 12]\nresult = arithmetic_mean(input_list)\nprint(f\"Arithmetic mean of {input_list}: {result}\")",
+        "detail": "Day  022.Homework.task20",
+        "documentation": {}
+    },
+    {
+        "label": "input_list",
+        "kind": 5,
+        "importPath": "Day  022.Homework.task20",
+        "description": "Day  022.Homework.task20",
+        "peekOfCode": "input_list = [1, 5, 12]\nresult = arithmetic_mean(input_list)\nprint(f\"Arithmetic mean of {input_list}: {result}\")",
+        "detail": "Day  022.Homework.task20",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Day  022.Homework.task20",
+        "description": "Day  022.Homework.task20",
+        "peekOfCode": "result = arithmetic_mean(input_list)\nprint(f\"Arithmetic mean of {input_list}: {result}\")",
+        "detail": "Day  022.Homework.task20",
+        "documentation": {}
+    },
+    {
+        "label": "length",
+        "kind": 2,
+        "importPath": "Day  022.Homework.task3",
+        "description": "Day  022.Homework.task3",
+        "peekOfCode": "def length(string):\n    return  len(string)\nprint(length('ilo'))",
+        "detail": "Day  022.Homework.task3",
+        "documentation": {}
+    },
+    {
+        "label": "lengths_convert",
+        "kind": 2,
+        "importPath": "Day  022.Homework.task4",
+        "description": "Day  022.Homework.task4",
+        "peekOfCode": "def lengths_convert(list):\n    res=[]\n    for string in list:\n        res.append(len(string))\n    return res\nprint(lengths_convert(['ilo','lexuxi','futball', 'luka']))",
+        "detail": "Day  022.Homework.task4",
+        "documentation": {}
+    },
+    {
+        "label": "palindrom_check",
+        "kind": 2,
+        "importPath": "Day  022.Homework.task5",
+        "description": "Day  022.Homework.task5",
+        "peekOfCode": "def palindrom_check(strng):\n    if strng==strng[::-1]:\n        return True\n    else:\n        return False\nprint(palindrom_check('mom'))\nprint(palindrom_check('iliolen'))",
+        "detail": "Day  022.Homework.task5",
+        "documentation": {}
+    },
+    {
+        "label": "longest_string",
+        "kind": 2,
+        "importPath": "Day  022.Homework.task6",
+        "description": "Day  022.Homework.task6",
+        "peekOfCode": "def longest_string(list):\n    len_list = []\n    for string in list:\n        len_list.append(len(string))\n    for i in range (len(list)):\n        if len_list[i] == max(len_list):\n            return list[i]\nprint(longest_string(['kviciani','ilia','gio']))",
+        "detail": "Day  022.Homework.task6",
+        "documentation": {}
+    },
+    {
+        "label": "factorial",
+        "kind": 2,
+        "importPath": "Day  022.Homework.task7",
+        "description": "Day  022.Homework.task7",
+        "peekOfCode": "def factorial(num):\n    product = 1\n    for i in range(1, num + 1):\n        product = product * i\n    return product\nprint(factorial(6))",
+        "detail": "Day  022.Homework.task7",
+        "documentation": {}
+    },
+    {
+        "label": "max_sum",
+        "kind": 2,
+        "importPath": "Day  022.Homework.task8",
+        "description": "Day  022.Homework.task8",
+        "peekOfCode": "def max_sum(list1,list2):\n    return max(list1)+max(list2)\nprint(max_sum([1,5,9,4,7,6,2],[1,2,3,4,5,6,7,8]))",
+        "detail": "Day  022.Homework.task8",
+        "documentation": {}
+    },
+    {
+        "label": "min_difference",
+        "kind": 2,
+        "importPath": "Day  022.Homework.task9",
+        "description": "Day  022.Homework.task9",
+        "peekOfCode": "def min_difference(list1, list2):\n    min1=min(list1)\n    min2=min(list2)\n    difference=abs(min1-min2)\n    return difference\nlist1=[22,34, 66,]\nlist2=[39,44,55]\nprint(min_difference(list1, list2))",
+        "detail": "Day  022.Homework.task9",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "Day  023.Classwork.task1",
+        "description": "Day  023.Classwork.task1",
+        "peekOfCode": "def add(num1 , num2):\n    sum=num1 + num2\n    return num1 + num2 \nilia=add(2 ,3)\nprint (ilia)",
+        "detail": "Day  023.Classwork.task1",
+        "documentation": {}
+    },
+    {
+        "label": "is_even",
+        "kind": 2,
+        "importPath": "Day  023.Homework.task10",
+        "description": "Day  023.Homework.task10",
+        "peekOfCode": "def is_even(num):\n    return num % 2 == 0\nprint(is_even(4))  \nprint(is_even(7))  \nprint(is_even(0))  \nprint(is_even(-2)) \nprint(is_even(-3))",
+        "detail": "Day  023.Homework.task10",
+        "documentation": {}
+    },
+    {
+        "label": "sum_even_indexed_numbers",
+        "kind": 2,
+        "importPath": "Day  023.Homework.task11",
+        "description": "Day  023.Homework.task11",
+        "peekOfCode": "def sum_even_indexed_numbers(numbers):\n    total_sum = 0\n    for index, number in enumerate(numbers):\n        if index % 2 == 0:\n            total_sum += number\n    return total_sum\nnumbers = [10, 20, 30, 40, 50]\nprint(sum_even_indexed_numbers(numbers))",
+        "detail": "Day  023.Homework.task11",
+        "documentation": {}
+    },
+    {
+        "label": "numbers",
+        "kind": 5,
+        "importPath": "Day  023.Homework.task11",
+        "description": "Day  023.Homework.task11",
+        "peekOfCode": "numbers = [10, 20, 30, 40, 50]\nprint(sum_even_indexed_numbers(numbers))",
+        "detail": "Day  023.Homework.task11",
+        "documentation": {}
+    },
+    {
+        "label": "check_even_or_odd",
+        "kind": 2,
+        "importPath": "Day  023.Homework.task12",
+        "description": "Day  023.Homework.task12",
+        "peekOfCode": "def check_even_or_odd(number):\n    if number % 2 == 0:\n        return\n    else:\n        return \n    print(check_even_or_odd(10)) \nprint(check_even_or_odd(7))",
+        "detail": "Day  023.Homework.task12",
+        "documentation": {}
+    },
+    {
+        "label": "is_prime",
+        "kind": 2,
+        "importPath": "Day  023.Homework.task13",
+        "description": "Day  023.Homework.task13",
+        "peekOfCode": "def is_prime(number):\n    if number <= 1:\n        return False\n    for i in range(2, int(number ** 0.5) + 1):\n        if number % i == 0:\n            return False\n    return True\nprint(is_prime(2))   \nprint(is_prime(17))   \nprint(is_prime(18))   ",
+        "detail": "Day  023.Homework.task13",
+        "documentation": {}
+    },
+    {
+        "label": "capitalize_names",
+        "kind": 2,
+        "importPath": "Day  023.Homework.task14",
+        "description": "Day  023.Homework.task14",
+        "peekOfCode": "def capitalize_names(names_list):\n    updated_names = [name.capitalize() for name in names_list]\n    return updated_names\nnames = [\"john\", \"alice\", \"bob\"]\ndef capitalize_names(names_list):\n    updated_names = [name.upper() for name in names_list]\n    return updated_names",
+        "detail": "Day  023.Homework.task14",
+        "documentation": {}
+    },
+    {
+        "label": "capitalize_names",
+        "kind": 2,
+        "importPath": "Day  023.Homework.task14",
+        "description": "Day  023.Homework.task14",
+        "peekOfCode": "def capitalize_names(names_list):\n    updated_names = [name.upper() for name in names_list]\n    return updated_names",
+        "detail": "Day  023.Homework.task14",
+        "documentation": {}
+    },
+    {
+        "label": "names",
+        "kind": 5,
+        "importPath": "Day  023.Homework.task14",
+        "description": "Day  023.Homework.task14",
+        "peekOfCode": "names = [\"john\", \"alice\", \"bob\"]\ndef capitalize_names(names_list):\n    updated_names = [name.upper() for name in names_list]\n    return updated_names",
+        "detail": "Day  023.Homework.task14",
+        "documentation": {}
+    },
+    {
+        "label": "process_numbers",
+        "kind": 2,
+        "importPath": "Day  023.Homework.task15",
+        "description": "Day  023.Homework.task15",
+        "peekOfCode": "def process_numbers(numbers_list):\n    # ახალი სიის შექმნა\n    updated_list = []\n    # Iterate over the list of numbers\n    for number in numbers_list:\n        if number % 2 == 0:\n            # თუ რიცხვი ლუწია, დაამატეთ მისი განაყოფი ორზე\n            updated_list.append(number // 2)\n        else:\n            # თუ რიცხვი კენტია, დაამატეთ მისი ნამრავლი ორზე",
+        "detail": "Day  023.Homework.task15",
+        "documentation": {}
+    },
+    {
+        "label": "longest_string",
+        "kind": 2,
+        "importPath": "Day  023.Homework.task16",
+        "description": "Day  023.Homework.task16",
+        "peekOfCode": "def longest_string(strings_list):\n    # გამოიყენეთ max ფუნქცია სიის ელემენტების სიგრძის მიხედვით\n    return max(strings_list, key=len)\nstrings = [\"apple\", \"banana\", \"cherry\", \"date\"]\nprint(longest_string(strings))  # შედეგი იქნება 'banana'",
+        "detail": "Day  023.Homework.task16",
+        "documentation": {}
+    },
+    {
+        "label": "strings",
+        "kind": 5,
+        "importPath": "Day  023.Homework.task16",
+        "description": "Day  023.Homework.task16",
+        "peekOfCode": "strings = [\"apple\", \"banana\", \"cherry\", \"date\"]\nprint(longest_string(strings))  # შედეგი იქნება 'banana'",
+        "detail": "Day  023.Homework.task16",
+        "documentation": {}
+    },
+    {
+        "label": "smallest_number",
+        "kind": 2,
+        "importPath": "Day  023.Homework.task17",
+        "description": "Day  023.Homework.task17",
+        "peekOfCode": "def smallest_number(numbers_list):\n    return min(numbers_list)\nnumbers = [3, 1, 4, 1, 5, 9]\nprint(smallest_number(numbers))",
+        "detail": "Day  023.Homework.task17",
+        "documentation": {}
+    },
+    {
+        "label": "numbers",
+        "kind": 5,
+        "importPath": "Day  023.Homework.task17",
+        "description": "Day  023.Homework.task17",
+        "peekOfCode": "numbers = [3, 1, 4, 1, 5, 9]\nprint(smallest_number(numbers))",
+        "detail": "Day  023.Homework.task17",
+        "documentation": {}
+    },
+    {
+        "label": "gcd",
+        "kind": 2,
+        "importPath": "Day  023.Homework.task18",
+        "description": "Day  023.Homework.task18",
+        "peekOfCode": "def gcd(a, b):\n    return math.gcd(a, b)\nprint(gcd(48, 18))",
+        "detail": "Day  023.Homework.task18",
+        "documentation": {}
+    },
+    {
+        "label": "to_uppercase",
+        "kind": 2,
+        "importPath": "Day  023.Homework.task19",
+        "description": "Day  023.Homework.task19",
+        "peekOfCode": "def to_uppercase(string):\n    return string.upper()\nprint(to_uppercase(\"Hello World\"))",
+        "detail": "Day  023.Homework.task19",
+        "documentation": {}
+    },
+    {
+        "label": "add_until_100",
+        "kind": 2,
+        "importPath": "Day  023.Homework.task2",
+        "description": "Day  023.Homework.task2",
+        "peekOfCode": "def add_until_100(a, b):\n    while a < 100:\n        a += b\n    return a\nresult = add_until_100(45, 15)\nprint(result)",
+        "detail": "Day  023.Homework.task2",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Day  023.Homework.task2",
+        "description": "Day  023.Homework.task2",
+        "peekOfCode": "result = add_until_100(45, 15)\nprint(result)",
+        "detail": "Day  023.Homework.task2",
+        "documentation": {}
+    },
+    {
+        "label": "average",
+        "kind": 2,
+        "importPath": "Day  023.Homework.task20",
+        "description": "Day  023.Homework.task20",
+        "peekOfCode": "def average(numbers_list):\n    return sum(numbers_list) / len(numbers_list)\nnumbers = [1, 5, 12]\nprint(average(numbers))",
+        "detail": "Day  023.Homework.task20",
+        "documentation": {}
+    },
+    {
+        "label": "numbers",
+        "kind": 5,
+        "importPath": "Day  023.Homework.task20",
+        "description": "Day  023.Homework.task20",
+        "peekOfCode": "numbers = [1, 5, 12]\nprint(average(numbers))",
+        "detail": "Day  023.Homework.task20",
+        "documentation": {}
+    },
+    {
+        "label": "check_odd_or_even",
+        "kind": 2,
+        "importPath": "Day  023.Homework.task3",
+        "description": "Day  023.Homework.task3",
+        "peekOfCode": "def check_odd_or_even(num):\n    # ამოწმებს არის თუ არა რიცხვი ლუწი თუ კენტია\n    if num % 2 == 0:\n        return 'Even'\n    else:\n        return 'Odd'\nprint(check_odd_or_even(4))  # 'Even'\nprint(check_odd_or_even(7))  # 'Odd'\ndef is_even(num):\n    return num % 2 == 0",
+        "detail": "Day  023.Homework.task3",
+        "documentation": {}
+    },
+    {
+        "label": "is_even",
+        "kind": 2,
+        "importPath": "Day  023.Homework.task3",
+        "description": "Day  023.Homework.task3",
+        "peekOfCode": "def is_even(num):\n    return num % 2 == 0\nprint(is_even(4))  # True\nprint(is_even(7))  # False",
+        "detail": "Day  023.Homework.task3",
+        "documentation": {}
+    },
+    {
+        "label": "find_max_number",
+        "kind": 2,
+        "importPath": "Day  023.Homework.task4",
+        "description": "Day  023.Homework.task4",
+        "peekOfCode": "def find_max_number(lst):\n    if not lst:\n        return 'List is empty'\n    return max(lst)\nnumbers = [3, 1, 4, 1, 5, 9, 2]\nprint(find_max_number(numbers))  \ndef find_max_number(lst):\n    if not lst:\n        return 'List is empty'\n    if not all(isinstance(x, (int, float)) for x in lst):",
+        "detail": "Day  023.Homework.task4",
+        "documentation": {}
+    },
+    {
+        "label": "find_max_number",
+        "kind": 2,
+        "importPath": "Day  023.Homework.task4",
+        "description": "Day  023.Homework.task4",
+        "peekOfCode": "def find_max_number(lst):\n    if not lst:\n        return 'List is empty'\n    if not all(isinstance(x, (int, float)) for x in lst):\n        return 'List must contain only numbers'\n    return max(lst)",
+        "detail": "Day  023.Homework.task4",
+        "documentation": {}
+    },
+    {
+        "label": "numbers",
+        "kind": 5,
+        "importPath": "Day  023.Homework.task4",
+        "description": "Day  023.Homework.task4",
+        "peekOfCode": "numbers = [3, 1, 4, 1, 5, 9, 2]\nprint(find_max_number(numbers))  \ndef find_max_number(lst):\n    if not lst:\n        return 'List is empty'\n    if not all(isinstance(x, (int, float)) for x in lst):\n        return 'List must contain only numbers'\n    return max(lst)",
+        "detail": "Day  023.Homework.task4",
+        "documentation": {}
+    },
+    {
+        "label": "sum_of_numbers",
+        "kind": 2,
+        "importPath": "Day  023.Homework.task5",
+        "description": "Day  023.Homework.task5",
+        "peekOfCode": "def sum_of_numbers(lst):\n    if not all(isinstance(x, (int, float)) for x in lst):\n        return 'List must contain only numbers'\n    return sum(lst)\nnumbers = [1, 2, 3, 4, 5]\nprint(sum_of_numbers(numbers))  \nmixed_list = [1, 2, 'three', 4]\nprint(sum_of_numbers(mixed_list))\ndef sum_of_numbers(lst):\n    return sum(lst)",
+        "detail": "Day  023.Homework.task5",
+        "documentation": {}
+    },
+    {
+        "label": "sum_of_numbers",
+        "kind": 2,
+        "importPath": "Day  023.Homework.task5",
+        "description": "Day  023.Homework.task5",
+        "peekOfCode": "def sum_of_numbers(lst):\n    return sum(lst)",
+        "detail": "Day  023.Homework.task5",
+        "documentation": {}
+    },
+    {
+        "label": "numbers",
+        "kind": 5,
+        "importPath": "Day  023.Homework.task5",
+        "description": "Day  023.Homework.task5",
+        "peekOfCode": "numbers = [1, 2, 3, 4, 5]\nprint(sum_of_numbers(numbers))  \nmixed_list = [1, 2, 'three', 4]\nprint(sum_of_numbers(mixed_list))\ndef sum_of_numbers(lst):\n    return sum(lst)",
+        "detail": "Day  023.Homework.task5",
+        "documentation": {}
+    },
+    {
+        "label": "mixed_list",
+        "kind": 5,
+        "importPath": "Day  023.Homework.task5",
+        "description": "Day  023.Homework.task5",
+        "peekOfCode": "mixed_list = [1, 2, 'three', 4]\nprint(sum_of_numbers(mixed_list))\ndef sum_of_numbers(lst):\n    return sum(lst)",
+        "detail": "Day  023.Homework.task5",
+        "documentation": {}
+    },
+    {
+        "label": "reverse_sequence",
+        "kind": 2,
+        "importPath": "Day  023.Homework.task6",
+        "description": "Day  023.Homework.task6",
+        "peekOfCode": "def reverse_sequence(*args):\n    reversed_list = list(reversed(args))\n    return reversed_list\nresult = reverse_sequence(\"apple\", 42, \"banana\", 100)\nprint(result)",
+        "detail": "Day  023.Homework.task6",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Day  023.Homework.task6",
+        "description": "Day  023.Homework.task6",
+        "peekOfCode": "result = reverse_sequence(\"apple\", 42, \"banana\", 100)\nprint(result)",
+        "detail": "Day  023.Homework.task6",
+        "documentation": {}
+    },
+    {
+        "label": "find_longest_and_shortest",
+        "kind": 2,
+        "importPath": "Day  023.Homework.task7",
+        "description": "Day  023.Homework.task7",
+        "peekOfCode": "def find_longest_and_shortest(strings):\n    if not strings:\n        return 'List is empty'\n    longest = max(strings, key=len)\n    shortest = min(strings, key=len)\n    return longest, shortest\nstrings = [\"apple\", \"banana\", \"kiwi\", \"pineapple\"]\nlongest, shortest = find_longest_and_shortest(strings)\nprint(f\"Longest string: {longest}\")  \nprint(f\"Shortest string: {shortest}\")",
+        "detail": "Day  023.Homework.task7",
+        "documentation": {}
+    },
+    {
+        "label": "strings",
+        "kind": 5,
+        "importPath": "Day  023.Homework.task7",
+        "description": "Day  023.Homework.task7",
+        "peekOfCode": "strings = [\"apple\", \"banana\", \"kiwi\", \"pineapple\"]\nlongest, shortest = find_longest_and_shortest(strings)\nprint(f\"Longest string: {longest}\")  \nprint(f\"Shortest string: {shortest}\")",
+        "detail": "Day  023.Homework.task7",
+        "documentation": {}
+    },
+    {
+        "label": "swap_case",
+        "kind": 2,
+        "importPath": "Day  023.Homework.task8",
+        "description": "Day  023.Homework.task8",
+        "peekOfCode": "def swap_case(s):\n    return s.swapcase()\ntext = \"Hello World!\"\nresult = swap_case(text)\nprint(result)",
+        "detail": "Day  023.Homework.task8",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Day  023.Homework.task8",
+        "description": "Day  023.Homework.task8",
+        "peekOfCode": "text = \"Hello World!\"\nresult = swap_case(text)\nprint(result)",
+        "detail": "Day  023.Homework.task8",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Day  023.Homework.task8",
+        "description": "Day  023.Homework.task8",
+        "peekOfCode": "result = swap_case(text)\nprint(result)",
+        "detail": "Day  023.Homework.task8",
+        "documentation": {}
+    },
+    {
+        "label": "count_consonants",
+        "kind": 2,
+        "importPath": "Day  023.Homework.task9",
+        "description": "Day  023.Homework.task9",
+        "peekOfCode": "def count_consonants(s):\n    vowels = 'aeiouAEIOU'\n    consonants = [char for char in s if char.isalpha() and char not in vowels]\n    return len(consonants)\ntext = \"Hello World!\"\nresult = count_consonants(text)\nprint(result)",
+        "detail": "Day  023.Homework.task9",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Day  023.Homework.task9",
+        "description": "Day  023.Homework.task9",
+        "peekOfCode": "text = \"Hello World!\"\nresult = count_consonants(text)\nprint(result)",
+        "detail": "Day  023.Homework.task9",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Day  023.Homework.task9",
+        "description": "Day  023.Homework.task9",
+        "peekOfCode": "result = count_consonants(text)\nprint(result)",
+        "detail": "Day  023.Homework.task9",
+        "documentation": {}
+    },
+    {
+        "label": "lists",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task10",
+        "description": "Day  026.Homework.task10",
+        "peekOfCode": "lists = [1,2,3]\nindex = 0\nwhile index < len(lists):\n    print(lists[index])\n    index += 1",
+        "detail": "Day  026.Homework.task10",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task10",
+        "description": "Day  026.Homework.task10",
+        "peekOfCode": "index = 0\nwhile index < len(lists):\n    print(lists[index])\n    index += 1",
+        "detail": "Day  026.Homework.task10",
+        "documentation": {}
+    },
+    {
+        "label": "word",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task11",
+        "description": "Day  026.Homework.task11",
+        "peekOfCode": "word = \"Hi\"\nlst = [1,2,3]\nfor element in lst:\n    print(\"hi\")",
+        "detail": "Day  026.Homework.task11",
+        "documentation": {}
+    },
+    {
+        "label": "lst",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task11",
+        "description": "Day  026.Homework.task11",
+        "peekOfCode": "lst = [1,2,3]\nfor element in lst:\n    print(\"hi\")",
+        "detail": "Day  026.Homework.task11",
+        "documentation": {}
+    },
+    {
+        "label": "lst",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task12",
+        "description": "Day  026.Homework.task12",
+        "peekOfCode": "lst = [1, 2, 3]\nindex = 0\nwhile index < len(lst):\n    print(\"Hi\")\n    index += 1",
+        "detail": "Day  026.Homework.task12",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task12",
+        "description": "Day  026.Homework.task12",
+        "peekOfCode": "index = 0\nwhile index < len(lst):\n    print(\"Hi\")\n    index += 1",
+        "detail": "Day  026.Homework.task12",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task14",
+        "description": "Day  026.Homework.task14",
+        "peekOfCode": "i = 1\nwhile i <= 3:\n    print(i)\n    i += 1",
+        "detail": "Day  026.Homework.task14",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task16",
+        "description": "Day  026.Homework.task16",
+        "peekOfCode": "i = 3\nwhile i >= 1:\n    print(i)\n    i -= 1",
+        "detail": "Day  026.Homework.task16",
+        "documentation": {}
+    },
+    {
+        "label": "letters",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task17",
+        "description": "Day  026.Homework.task17",
+        "peekOfCode": "letters = ['a', 'b', 'c', 'd']\nfor letter in letters:\n    print(letter)",
+        "detail": "Day  026.Homework.task17",
+        "documentation": {}
+    },
+    {
+        "label": "letters",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task18",
+        "description": "Day  026.Homework.task18",
+        "peekOfCode": "letters = ['a', 'b', 'c', 'd']\nindex = 0\nwhile index < len(letters):\n    print(letters[index])\n    index += 1",
+        "detail": "Day  026.Homework.task18",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task18",
+        "description": "Day  026.Homework.task18",
+        "peekOfCode": "index = 0\nwhile index < len(letters):\n    print(letters[index])\n    index += 1",
+        "detail": "Day  026.Homework.task18",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task2",
+        "description": "Day  026.Homework.task2",
+        "peekOfCode": "i = 0\nwhile i <= 5 :\n    print (i)\n    i += 1",
+        "detail": "Day  026.Homework.task2",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task20",
+        "description": "Day  026.Homework.task20",
+        "peekOfCode": "index = 0\nwhile index < 4:\n    print(\"Looping\")\n    index += 1",
+        "detail": "Day  026.Homework.task20",
+        "documentation": {}
+    },
+    {
+        "label": "tuple_elements",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task21",
+        "description": "Day  026.Homework.task21",
+        "peekOfCode": "tuple_elements = (1,2,3)\nfor elements in tuple_elements:\n    print(elements)",
+        "detail": "Day  026.Homework.task21",
+        "documentation": {}
+    },
+    {
+        "label": "tuple_elements",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task22",
+        "description": "Day  026.Homework.task22",
+        "peekOfCode": "tuple_elements = (1, 2, 3)\nindex = 0\nwhile index < len(tuple_elements):\n    print(tuple_elements[index])\n    index += 1\n    1. #Print numbers from 1 to 5 using a for loop.\nfor i in range(1,5+1):\n     print(i)\n# 2. Print numbers from 1 to 5 using a while loop.\ni = 0",
+        "detail": "Day  026.Homework.task22",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task22",
+        "description": "Day  026.Homework.task22",
+        "peekOfCode": "index = 0\nwhile index < len(tuple_elements):\n    print(tuple_elements[index])\n    index += 1\n    1. #Print numbers from 1 to 5 using a for loop.\nfor i in range(1,5+1):\n     print(i)\n# 2. Print numbers from 1 to 5 using a while loop.\ni = 0\nwhile i <= 5 :",
+        "detail": "Day  026.Homework.task22",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task22",
+        "description": "Day  026.Homework.task22",
+        "peekOfCode": "i = 0\nwhile i <= 5 :\n    print (i)\n    i += 1 \n# 3. Print each character in the string \"hello\" using a for loop.\nword = \"Erekle\"\nfor char in word:\n    print (char)\n# 4. Print each character in the string \"hello\" using a while loop.\nword = \"Andria\"",
+        "detail": "Day  026.Homework.task22",
+        "documentation": {}
+    },
+    {
+        "label": "word",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task22",
+        "description": "Day  026.Homework.task22",
+        "peekOfCode": "word = \"Erekle\"\nfor char in word:\n    print (char)\n# 4. Print each character in the string \"hello\" using a while loop.\nword = \"Andria\"\nindex = 0\nwhile index < len(word):\n    print(word[index])\n    index += 1\n# 5. Print the numbers 1, 2, 3 using a for loop",
+        "detail": "Day  026.Homework.task22",
+        "documentation": {}
+    },
+    {
+        "label": "word",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task22",
+        "description": "Day  026.Homework.task22",
+        "peekOfCode": "word = \"Andria\"\nindex = 0\nwhile index < len(word):\n    print(word[index])\n    index += 1\n# 5. Print the numbers 1, 2, 3 using a for loop\nfor i in range(1,3+1):\n    print (i)\n# 6. Print the numbers 1, 2, 3 using a while loop.\ni = 1",
+        "detail": "Day  026.Homework.task22",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task22",
+        "description": "Day  026.Homework.task22",
+        "peekOfCode": "index = 0\nwhile index < len(word):\n    print(word[index])\n    index += 1\n# 5. Print the numbers 1, 2, 3 using a for loop\nfor i in range(1,3+1):\n    print (i)\n# 6. Print the numbers 1, 2, 3 using a while loop.\ni = 1\nwhile i <= 3:",
+        "detail": "Day  026.Homework.task22",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task22",
+        "description": "Day  026.Homework.task22",
+        "peekOfCode": "i = 1\nwhile i <= 3:\n    print (i)\n    i += 1\n# 7. Print \"Python is fun\" 3 times using a for loop.\nfor i in range(3):\n    print(\"Python is fun\")\n#8. Print \"Python is fun\" 3 times using a while loop.\ni = 0\nwhile i < 3:",
+        "detail": "Day  026.Homework.task22",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task22",
+        "description": "Day  026.Homework.task22",
+        "peekOfCode": "i = 0\nwhile i < 3:\n    print(\"Python is fun\")\n    i += 1 \n# 9. Print the elements of a list [1, 2, 3] using a for loop.\nlists = [1,2,3]\nfor lists in lists:\n    print (lists)\n# 10. Print the elements of a list [1, 2, 3] using a while loop.\nlists = [1,2,3]",
+        "detail": "Day  026.Homework.task22",
+        "documentation": {}
+    },
+    {
+        "label": "lists",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task22",
+        "description": "Day  026.Homework.task22",
+        "peekOfCode": "lists = [1,2,3]\nfor lists in lists:\n    print (lists)\n# 10. Print the elements of a list [1, 2, 3] using a while loop.\nlists = [1,2,3]\nindex = 0\nwhile index < len(lists):\n    print(lists[index])\n    index += 1\n# 11. Print \"hi\" for each element in a list [1, 2, 3] using a for loop.",
+        "detail": "Day  026.Homework.task22",
+        "documentation": {}
+    },
+    {
+        "label": "lists",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task22",
+        "description": "Day  026.Homework.task22",
+        "peekOfCode": "lists = [1,2,3]\nindex = 0\nwhile index < len(lists):\n    print(lists[index])\n    index += 1\n# 11. Print \"hi\" for each element in a list [1, 2, 3] using a for loop.\nword = \"Hi\"\nlst = [1,2,3]\nfor element in lst:\n    print(\"hi\")",
+        "detail": "Day  026.Homework.task22",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task22",
+        "description": "Day  026.Homework.task22",
+        "peekOfCode": "index = 0\nwhile index < len(lists):\n    print(lists[index])\n    index += 1\n# 11. Print \"hi\" for each element in a list [1, 2, 3] using a for loop.\nword = \"Hi\"\nlst = [1,2,3]\nfor element in lst:\n    print(\"hi\")\n#12. Print \"hi\" for each element in a list [1, 2, 3] using a while loop.",
+        "detail": "Day  026.Homework.task22",
+        "documentation": {}
+    },
+    {
+        "label": "word",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task22",
+        "description": "Day  026.Homework.task22",
+        "peekOfCode": "word = \"Hi\"\nlst = [1,2,3]\nfor element in lst:\n    print(\"hi\")\n#12. Print \"hi\" for each element in a list [1, 2, 3] using a while loop.\nlst = [1, 2, 3]\nindex = 0\nwhile index < len(lst):\n    print(\"Hi\")\n    index += 1",
+        "detail": "Day  026.Homework.task22",
+        "documentation": {}
+    },
+    {
+        "label": "lst",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task22",
+        "description": "Day  026.Homework.task22",
+        "peekOfCode": "lst = [1,2,3]\nfor element in lst:\n    print(\"hi\")\n#12. Print \"hi\" for each element in a list [1, 2, 3] using a while loop.\nlst = [1, 2, 3]\nindex = 0\nwhile index < len(lst):\n    print(\"Hi\")\n    index += 1\n#13. Print the first 3 positive integers using a for loop.",
+        "detail": "Day  026.Homework.task22",
+        "documentation": {}
+    },
+    {
+        "label": "lst",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task22",
+        "description": "Day  026.Homework.task22",
+        "peekOfCode": "lst = [1, 2, 3]\nindex = 0\nwhile index < len(lst):\n    print(\"Hi\")\n    index += 1\n#13. Print the first 3 positive integers using a for loop.\nfor i in range(1, 4):\n    print(i)\n#4. Print the first 3 positive integers using a while loop.\ni = 1",
+        "detail": "Day  026.Homework.task22",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task22",
+        "description": "Day  026.Homework.task22",
+        "peekOfCode": "index = 0\nwhile index < len(lst):\n    print(\"Hi\")\n    index += 1\n#13. Print the first 3 positive integers using a for loop.\nfor i in range(1, 4):\n    print(i)\n#4. Print the first 3 positive integers using a while loop.\ni = 1\nwhile i <= 3:",
+        "detail": "Day  026.Homework.task22",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task22",
+        "description": "Day  026.Homework.task22",
+        "peekOfCode": "i = 1\nwhile i <= 3:\n    print(i)\n    i += 1\n#15. Print the numbers from 1 to 3 in reverse using a for loop.\nfor i in range(3, 0, -1):\n    print(i)\n#16. Print the numbers from 1 to 3 in reverse using a while loop.\ni = 3\nwhile i >= 1:",
+        "detail": "Day  026.Homework.task22",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task22",
+        "description": "Day  026.Homework.task22",
+        "peekOfCode": "i = 3\nwhile i >= 1:\n    print(i)\n    i -= 1\n#17. Print the first 4 letters of the alphabet using a for loop.\nletters = ['a', 'b', 'c', 'd']\nfor letter in letters:\n    print(letter)\n#18. Print the first 4 letters of the alphabet using a while loop.\nletters = ['a', 'b', 'c', 'd']",
+        "detail": "Day  026.Homework.task22",
+        "documentation": {}
+    },
+    {
+        "label": "letters",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task22",
+        "description": "Day  026.Homework.task22",
+        "peekOfCode": "letters = ['a', 'b', 'c', 'd']\nfor letter in letters:\n    print(letter)\n#18. Print the first 4 letters of the alphabet using a while loop.\nletters = ['a', 'b', 'c', 'd']\nindex = 0\nwhile index < len(letters):\n    print(letters[index])\n    index += 1\n#19. Print the message \"looping\" 4 times using a for loop.",
+        "detail": "Day  026.Homework.task22",
+        "documentation": {}
+    },
+    {
+        "label": "letters",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task22",
+        "description": "Day  026.Homework.task22",
+        "peekOfCode": "letters = ['a', 'b', 'c', 'd']\nindex = 0\nwhile index < len(letters):\n    print(letters[index])\n    index += 1\n#19. Print the message \"looping\" 4 times using a for loop.\nfor i in range(4):\n    print(\"Looping\")\n#20. Print the message \"looping\" 4 times using a while loop.\nindex = 0",
+        "detail": "Day  026.Homework.task22",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task22",
+        "description": "Day  026.Homework.task22",
+        "peekOfCode": "index = 0\nwhile index < len(letters):\n    print(letters[index])\n    index += 1\n#19. Print the message \"looping\" 4 times using a for loop.\nfor i in range(4):\n    print(\"Looping\")\n#20. Print the message \"looping\" 4 times using a while loop.\nindex = 0\nwhile index < 4:",
+        "detail": "Day  026.Homework.task22",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task22",
+        "description": "Day  026.Homework.task22",
+        "peekOfCode": "index = 0\nwhile index < 4:\n    print(\"Looping\")\n    index += 1\n#21. Print the elements of a tuple (1, 2, 3) using a for loop.\ntuple_elements = (1,2,3)\nfor elements in tuple_elements:\n    print(elements)\n#22. Print the elements of a tuple (1, 2, 3) using a while loop.\ntuple_elements = (1, 2, 3)",
+        "detail": "Day  026.Homework.task22",
+        "documentation": {}
+    },
+    {
+        "label": "tuple_elements",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task22",
+        "description": "Day  026.Homework.task22",
+        "peekOfCode": "tuple_elements = (1,2,3)\nfor elements in tuple_elements:\n    print(elements)\n#22. Print the elements of a tuple (1, 2, 3) using a while loop.\ntuple_elements = (1, 2, 3)\nindex = 0\nwhile index < len(tuple_elements):\n    print(tuple_elements[index])\n    index += 1\n#23. Print the numbers 5, 4, 3, 2, 1 using a for loop.",
+        "detail": "Day  026.Homework.task22",
+        "documentation": {}
+    },
+    {
+        "label": "tuple_elements",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task22",
+        "description": "Day  026.Homework.task22",
+        "peekOfCode": "tuple_elements = (1, 2, 3)\nindex = 0\nwhile index < len(tuple_elements):\n    print(tuple_elements[index])\n    index += 1\n#23. Print the numbers 5, 4, 3, 2, 1 using a for loop.\nfor i in range(5, 0, -1):\n    print(i)\n#24. Print the numbers 5, 4, 3, 2, 1 using a while loop.\nnum = 5",
+        "detail": "Day  026.Homework.task22",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task22",
+        "description": "Day  026.Homework.task22",
+        "peekOfCode": "index = 0\nwhile index < len(tuple_elements):\n    print(tuple_elements[index])\n    index += 1\n#23. Print the numbers 5, 4, 3, 2, 1 using a for loop.\nfor i in range(5, 0, -1):\n    print(i)\n#24. Print the numbers 5, 4, 3, 2, 1 using a while loop.\nnum = 5\nwhile num >= 1:",
+        "detail": "Day  026.Homework.task22",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task22",
+        "description": "Day  026.Homework.task22",
+        "peekOfCode": "num = 5\nwhile num >= 1:\n    print(num)\n    num -= 1\n#25. Print the elements of the list [\"apple\", \"banana\", \"cherry\"] using a for loop.\nfruits =[\"Apple\", \"Banana\", \"Cherry\"]\nfor fruits in fruits:\n    print(fruits)",
+        "detail": "Day  026.Homework.task22",
+        "documentation": {}
+    },
+    {
+        "label": "fruits",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task26",
+        "description": "Day  026.Homework.task26",
+        "peekOfCode": "fruits = [\"apple\", \"banana\", \"cherry\"]\nindex = 0\nwhile index < len(fruits):\n    print(fruits[index])\n    index += 1",
+        "detail": "Day  026.Homework.task26",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task26",
+        "description": "Day  026.Homework.task26",
+        "peekOfCode": "index = 0\nwhile index < len(fruits):\n    print(fruits[index])\n    index += 1",
+        "detail": "Day  026.Homework.task26",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task28",
+        "description": "Day  026.Homework.task28",
+        "peekOfCode": "num = 0\nwhile num < 3:\n    print(num)\n    num += 1",
+        "detail": "Day  026.Homework.task28",
+        "documentation": {}
+    },
+    {
+        "label": "numbers",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task29",
+        "description": "Day  026.Homework.task29",
+        "peekOfCode": "numbers = [1, 2, 3, 4]\nfor num in numbers:\n    print(\"loop\")\n# Task 30\nnumbers = [1, 2, 3, 4]\nindex = 0\nwhile index < len(numbers):\n    print(\"loop\")\n    index += 1\n# Task 31",
+        "detail": "Day  026.Homework.task29",
+        "documentation": {}
+    },
+    {
+        "label": "numbers",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task29",
+        "description": "Day  026.Homework.task29",
+        "peekOfCode": "numbers = [1, 2, 3, 4]\nindex = 0\nwhile index < len(numbers):\n    print(\"loop\")\n    index += 1\n# Task 31\nfor char in \"abc\":\n    print(char)\n# Task 32\nword = \"abc\"",
+        "detail": "Day  026.Homework.task29",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task29",
+        "description": "Day  026.Homework.task29",
+        "peekOfCode": "index = 0\nwhile index < len(numbers):\n    print(\"loop\")\n    index += 1\n# Task 31\nfor char in \"abc\":\n    print(char)\n# Task 32\nword = \"abc\"\nindex = 0",
+        "detail": "Day  026.Homework.task29",
+        "documentation": {}
+    },
+    {
+        "label": "word",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task29",
+        "description": "Day  026.Homework.task29",
+        "peekOfCode": "word = \"abc\"\nindex = 0\nwhile index < len(word):\n    print(word[index])\n    index += 1\n# Task 33\nelements = [\"x\", \"y\", \"z\"]\nfor element in elements[:2]:\n    print(element)\n# Task 34",
+        "detail": "Day  026.Homework.task29",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task29",
+        "description": "Day  026.Homework.task29",
+        "peekOfCode": "index = 0\nwhile index < len(word):\n    print(word[index])\n    index += 1\n# Task 33\nelements = [\"x\", \"y\", \"z\"]\nfor element in elements[:2]:\n    print(element)\n# Task 34\nelements = [\"x\", \"y\", \"z\"]",
+        "detail": "Day  026.Homework.task29",
+        "documentation": {}
+    },
+    {
+        "label": "elements",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task29",
+        "description": "Day  026.Homework.task29",
+        "peekOfCode": "elements = [\"x\", \"y\", \"z\"]\nfor element in elements[:2]:\n    print(element)\n# Task 34\nelements = [\"x\", \"y\", \"z\"]\nindex = 0\nwhile index < 2:\n    print(elements[index])\n    index += 1\n# Task 35",
+        "detail": "Day  026.Homework.task29",
+        "documentation": {}
+    },
+    {
+        "label": "elements",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task29",
+        "description": "Day  026.Homework.task29",
+        "peekOfCode": "elements = [\"x\", \"y\", \"z\"]\nindex = 0\nwhile index < 2:\n    print(elements[index])\n    index += 1\n# Task 35\nfor _ in range(2):\n    print(\"Hello World\")\n# Task 36\ncount = 0",
+        "detail": "Day  026.Homework.task29",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task29",
+        "description": "Day  026.Homework.task29",
+        "peekOfCode": "index = 0\nwhile index < 2:\n    print(elements[index])\n    index += 1\n# Task 35\nfor _ in range(2):\n    print(\"Hello World\")\n# Task 36\ncount = 0\nwhile count < 2:",
+        "detail": "Day  026.Homework.task29",
+        "documentation": {}
+    },
+    {
+        "label": "count",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task29",
+        "description": "Day  026.Homework.task29",
+        "peekOfCode": "count = 0\nwhile count < 2:\n    print(\"Hello World\")\n    count += 1\n# Task 37\nnumbers_set = {1, 2, 3}\nfor num in numbers_set:\n    print(num)\n# Task 38\nnumbers_set = {1, 2, 3}",
+        "detail": "Day  026.Homework.task29",
+        "documentation": {}
+    },
+    {
+        "label": "numbers_set",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task29",
+        "description": "Day  026.Homework.task29",
+        "peekOfCode": "numbers_set = {1, 2, 3}\nfor num in numbers_set:\n    print(num)\n# Task 38\nnumbers_set = {1, 2, 3}\nnumbers = list(numbers_set)\nindex = 0\nwhile index < len(numbers):\n    print(numbers[index])\n    index += 1",
+        "detail": "Day  026.Homework.task29",
+        "documentation": {}
+    },
+    {
+        "label": "numbers_set",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task29",
+        "description": "Day  026.Homework.task29",
+        "peekOfCode": "numbers_set = {1, 2, 3}\nnumbers = list(numbers_set)\nindex = 0\nwhile index < len(numbers):\n    print(numbers[index])\n    index += 1\n# Task 39\ndictionary = {\"a\": 1, \"b\": 2}\nfor key in dictionary:\n    print(key, dictionary[key])",
+        "detail": "Day  026.Homework.task29",
+        "documentation": {}
+    },
+    {
+        "label": "numbers",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task29",
+        "description": "Day  026.Homework.task29",
+        "peekOfCode": "numbers = list(numbers_set)\nindex = 0\nwhile index < len(numbers):\n    print(numbers[index])\n    index += 1\n# Task 39\ndictionary = {\"a\": 1, \"b\": 2}\nfor key in dictionary:\n    print(key, dictionary[key])\n# Task 40",
+        "detail": "Day  026.Homework.task29",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task29",
+        "description": "Day  026.Homework.task29",
+        "peekOfCode": "index = 0\nwhile index < len(numbers):\n    print(numbers[index])\n    index += 1\n# Task 39\ndictionary = {\"a\": 1, \"b\": 2}\nfor key in dictionary:\n    print(key, dictionary[key])\n# Task 40\ndictionary = {\"a\": 1, \"b\": 2}",
+        "detail": "Day  026.Homework.task29",
+        "documentation": {}
+    },
+    {
+        "label": "dictionary",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task29",
+        "description": "Day  026.Homework.task29",
+        "peekOfCode": "dictionary = {\"a\": 1, \"b\": 2}\nfor key in dictionary:\n    print(key, dictionary[key])\n# Task 40\ndictionary = {\"a\": 1, \"b\": 2}\nkeys = list(dictionary.keys())\nindex = 0\nwhile index < len(keys):\n    print(keys[index], dictionary[keys[index]])\n    index += 1",
+        "detail": "Day  026.Homework.task29",
+        "documentation": {}
+    },
+    {
+        "label": "dictionary",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task29",
+        "description": "Day  026.Homework.task29",
+        "peekOfCode": "dictionary = {\"a\": 1, \"b\": 2}\nkeys = list(dictionary.keys())\nindex = 0\nwhile index < len(keys):\n    print(keys[index], dictionary[keys[index]])\n    index += 1\n# Task 41\nfor num in [10, 20, 30]:\n    print(num)\n# Task 42",
+        "detail": "Day  026.Homework.task29",
+        "documentation": {}
+    },
+    {
+        "label": "keys",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task29",
+        "description": "Day  026.Homework.task29",
+        "peekOfCode": "keys = list(dictionary.keys())\nindex = 0\nwhile index < len(keys):\n    print(keys[index], dictionary[keys[index]])\n    index += 1\n# Task 41\nfor num in [10, 20, 30]:\n    print(num)\n# Task 42\nnumbers = [10, 20, 30]",
+        "detail": "Day  026.Homework.task29",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task29",
+        "description": "Day  026.Homework.task29",
+        "peekOfCode": "index = 0\nwhile index < len(keys):\n    print(keys[index], dictionary[keys[index]])\n    index += 1\n# Task 41\nfor num in [10, 20, 30]:\n    print(num)\n# Task 42\nnumbers = [10, 20, 30]\nindex = 0",
+        "detail": "Day  026.Homework.task29",
+        "documentation": {}
+    },
+    {
+        "label": "numbers",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task29",
+        "description": "Day  026.Homework.task29",
+        "peekOfCode": "numbers = [10, 20, 30]\nindex = 0\nwhile index < len(numbers):\n    print(numbers[index])\n    index += 1\n# Task 43\nfor _ in range(1):\n    pass\nprint(\"Done\")\n# Task 44",
+        "detail": "Day  026.Homework.task29",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task29",
+        "description": "Day  026.Homework.task29",
+        "peekOfCode": "index = 0\nwhile index < len(numbers):\n    print(numbers[index])\n    index += 1\n# Task 43\nfor _ in range(1):\n    pass\nprint(\"Done\")\n# Task 44\ncount = 0",
+        "detail": "Day  026.Homework.task29",
+        "documentation": {}
+    },
+    {
+        "label": "count",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task29",
+        "description": "Day  026.Homework.task29",
+        "peekOfCode": "count = 0\nwhile count < 1:\n    count += 1\nprint(\"Done\")\n# Task 45\nnested_list = [[1, 2], [3, 4]]\nfor sublist in nested_list:\n    for element in sublist:\n        print(element)\n# Task 46",
+        "detail": "Day  026.Homework.task29",
+        "documentation": {}
+    },
+    {
+        "label": "nested_list",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task29",
+        "description": "Day  026.Homework.task29",
+        "peekOfCode": "nested_list = [[1, 2], [3, 4]]\nfor sublist in nested_list:\n    for element in sublist:\n        print(element)\n# Task 46\nnested_list = [[1, 2], [3, 4]]\nindex = 0\nwhile index < len(nested_list):\n    sublist = nested_list[index]\n    for element in sublist:",
+        "detail": "Day  026.Homework.task29",
+        "documentation": {}
+    },
+    {
+        "label": "nested_list",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task29",
+        "description": "Day  026.Homework.task29",
+        "peekOfCode": "nested_list = [[1, 2], [3, 4]]\nindex = 0\nwhile index < len(nested_list):\n    sublist = nested_list[index]\n    for element in sublist:\n        print(element)\n    index += 1\n# Task 47\nfor num in range(1, 6):\n    print(num)",
+        "detail": "Day  026.Homework.task29",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task29",
+        "description": "Day  026.Homework.task29",
+        "peekOfCode": "index = 0\nwhile index < len(nested_list):\n    sublist = nested_list[index]\n    for element in sublist:\n        print(element)\n    index += 1\n# Task 47\nfor num in range(1, 6):\n    print(num)\n# Task 48",
+        "detail": "Day  026.Homework.task29",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task29",
+        "description": "Day  026.Homework.task29",
+        "peekOfCode": "num = 1\nwhile num < 6:\n    print(num)\n    num += 1\n# Task 49\nfor char in \"loop\":\n    print(char)\n# Task 50\nword = \"loop\"\nindex = 0",
+        "detail": "Day  026.Homework.task29",
+        "documentation": {}
+    },
+    {
+        "label": "word",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task29",
+        "description": "Day  026.Homework.task29",
+        "peekOfCode": "word = \"loop\"\nindex = 0\nwhile index < len(word):\n    print(word[index])\n    index += 1",
+        "detail": "Day  026.Homework.task29",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task29",
+        "description": "Day  026.Homework.task29",
+        "peekOfCode": "index = 0\nwhile index < len(word):\n    print(word[index])\n    index += 1",
+        "detail": "Day  026.Homework.task29",
+        "documentation": {}
+    },
+    {
+        "label": "word",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task3",
+        "description": "Day  026.Homework.task3",
+        "peekOfCode": "word = \"ilo\"\nfor char in word:\n    print (char)",
+        "detail": "Day  026.Homework.task3",
+        "documentation": {}
+    },
+    {
+        "label": "word",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task4",
+        "description": "Day  026.Homework.task4",
+        "peekOfCode": "word = \"ilia\"\nindex = 0\nwhile index < len(word):\n    print(word[index])\n    index += 1",
+        "detail": "Day  026.Homework.task4",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task4",
+        "description": "Day  026.Homework.task4",
+        "peekOfCode": "index = 0\nwhile index < len(word):\n    print(word[index])\n    index += 1",
+        "detail": "Day  026.Homework.task4",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task6",
+        "description": "Day  026.Homework.task6",
+        "peekOfCode": "i = 1\nwhile i <= 3:\n    print (i)\n    i += 1",
+        "detail": "Day  026.Homework.task6",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task8",
+        "description": "Day  026.Homework.task8",
+        "peekOfCode": "i = 0\nwhile i < 3:\n    print(\"Python is fun\")\n    i += 1",
+        "detail": "Day  026.Homework.task8",
+        "documentation": {}
+    },
+    {
+        "label": "lists",
+        "kind": 5,
+        "importPath": "Day  026.Homework.task9",
+        "description": "Day  026.Homework.task9",
+        "peekOfCode": "lists = [1,2,3]\nfor lists in lists:\n    print (lists)",
+        "detail": "Day  026.Homework.task9",
+        "documentation": {}
+    },
+    {
+        "label": "filter_odd",
+        "kind": 2,
+        "importPath": "Day  030.Classwork.task1",
+        "description": "Day  030.Classwork.task1",
+        "peekOfCode": "def filter_odd(numbers):\n    \"\"\"\n    :param numbers: \n    :return: \n    \"\"\"\n    return [num for num in numbers if num % 2 == 0]\nnumbers_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nfiltered_list = filter_odd(numbers_list)\nprint(filtered_list)",
+        "detail": "Day  030.Classwork.task1",
+        "documentation": {}
+    },
+    {
+        "label": "numbers_list",
+        "kind": 5,
+        "importPath": "Day  030.Classwork.task1",
+        "description": "Day  030.Classwork.task1",
+        "peekOfCode": "numbers_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nfiltered_list = filter_odd(numbers_list)\nprint(filtered_list)",
+        "detail": "Day  030.Classwork.task1",
+        "documentation": {}
+    },
+    {
+        "label": "filtered_list",
+        "kind": 5,
+        "importPath": "Day  030.Classwork.task1",
+        "description": "Day  030.Classwork.task1",
+        "peekOfCode": "filtered_list = filter_odd(numbers_list)\nprint(filtered_list)",
+        "detail": "Day  030.Classwork.task1",
+        "documentation": {}
+    },
+    {
+        "label": "even_sum",
+        "kind": 2,
+        "importPath": "Day  030.Classwork.task2",
+        "description": "Day  030.Classwork.task2",
+        "peekOfCode": "def even_sum(numbers):\n    \"\"\"\n    \"\"\"\n    total = sum(num for num in numbers if num % 2 == 0)\n    return total\nnumbers_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nresult = even_sum(numbers_list)\nprint(result)",
+        "detail": "Day  030.Classwork.task2",
+        "documentation": {}
+    },
+    {
+        "label": "numbers_list",
+        "kind": 5,
+        "importPath": "Day  030.Classwork.task2",
+        "description": "Day  030.Classwork.task2",
+        "peekOfCode": "numbers_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nresult = even_sum(numbers_list)\nprint(result)",
+        "detail": "Day  030.Classwork.task2",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Day  030.Classwork.task2",
+        "description": "Day  030.Classwork.task2",
+        "peekOfCode": "result = even_sum(numbers_list)\nprint(result)",
+        "detail": "Day  030.Classwork.task2",
+        "documentation": {}
+    },
+    {
+        "label": "odd_index_sum",
+        "kind": 2,
+        "importPath": "Day  030.Classwork.task3",
+        "description": "Day  030.Classwork.task3",
+        "peekOfCode": "def odd_index_sum(numbers):\n    \"\"\"\n    :param numbers: \n    :return: \n    \"\"\"\n    total = sum(numbers[i] for i in range(len(numbers)) if i % 2 != 0)\n    return total\nnumbers_list = [10, 20, 30, 40, 50, 60, 70, 80]\nresult = odd_index_sum(numbers_list)\nprint(result)",
+        "detail": "Day  030.Classwork.task3",
+        "documentation": {}
+    },
+    {
+        "label": "numbers_list",
+        "kind": 5,
+        "importPath": "Day  030.Classwork.task3",
+        "description": "Day  030.Classwork.task3",
+        "peekOfCode": "numbers_list = [10, 20, 30, 40, 50, 60, 70, 80]\nresult = odd_index_sum(numbers_list)\nprint(result)",
+        "detail": "Day  030.Classwork.task3",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Day  030.Classwork.task3",
+        "description": "Day  030.Classwork.task3",
+        "peekOfCode": "result = odd_index_sum(numbers_list)\nprint(result)",
+        "detail": "Day  030.Classwork.task3",
+        "documentation": {}
+    },
+    {
+        "label": "odd_imdex_sum",
+        "kind": 2,
+        "importPath": "Day  030.Homework.task1",
+        "description": "Day  030.Homework.task1",
+        "peekOfCode": "def odd_imdex_sum(numbers):\n    sum_of_even = 0\n    for number in numbers:\n        if number % 2 == 0:\n            sum_of_even = sum_of_even + number\n    return sum_of_even\nresult = odd_imdex_sum([1,2,3,4,5,6,7,8,9,10])\nprint(result)",
+        "detail": "Day  030.Homework.task1",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Day  030.Homework.task1",
+        "description": "Day  030.Homework.task1",
+        "peekOfCode": "result = odd_imdex_sum([1,2,3,4,5,6,7,8,9,10])\nprint(result)",
+        "detail": "Day  030.Homework.task1",
+        "documentation": {}
+    },
+    {
+        "label": "find_short",
+        "kind": 2,
+        "importPath": "Day  034.Homework.task2",
+        "description": "Day  034.Homework.task2",
+        "peekOfCode": "def find_short(s):\n    list1 = s.split(\" \")\n    word_len = len(list1[0])\n    for i in list1:\n        if len(i) < word_len:\n            word_len = len(i)\n    # word_len = 3\n    return word_len\nprint(find_short(\"bitcoin take over the world maybe who knows perhaps\"))'''\ndef find_short(s):",
+        "detail": "Day  034.Homework.task2",
+        "documentation": {}
+    },
+    {
+        "label": "find_short",
+        "kind": 2,
+        "importPath": "Day  034.Homework.task2",
+        "description": "Day  034.Homework.task2",
+        "peekOfCode": "def find_short(s):\n    # სტრიქონი გაყოფილია სიტყვებზე და შეიქმნა სია, რომელიც შეიცავს ყველა სიტყვას\n    list1 = s.split(\" \")\n    # პირველ სიტყვას აღენიშნება მისი სიგრძე (ამ მომენტისთვის ეს არის ყველაზე მოკლე სიგრძე)\n    word_len = len(list1[0])\n    # თითოეული სიტყვის სიგრძის შემოწმება\n    for i in list1:\n        # თუ სიტყვის სიგრძე ნაკლებია იმაზე, რაც ამ მომენტისთვის აღინიშნება, განაახლეთ word_len\n        if len(i) < word_len:\n            word_len = len(i)",
+        "detail": "Day  034.Homework.task2",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": "Day  034.Homework.task3",
+        "description": "Day  034.Homework.task3",
+        "peekOfCode": "s1 = \"apple banana cherry date\"\nresult1 = s1.split(\" \")\nprint(result1)  # ['apple', 'banana', 'cherry', 'date']\ns2 = \"one,two,three,four\"\nresult2 = s2.split(\",\")\nprint(result2)  # ['one', 'two', 'three', 'four']\ns3 = \"www.example.com.page1\"\nresult3 = s3.split(\".\")\nprint(result3)  # ['www', 'example', 'com', 'page1']\ns4 = \"home/user/documents/file.txt\"",
+        "detail": "Day  034.Homework.task3",
+        "documentation": {}
+    },
+    {
+        "label": "result1",
+        "kind": 5,
+        "importPath": "Day  034.Homework.task3",
+        "description": "Day  034.Homework.task3",
+        "peekOfCode": "result1 = s1.split(\" \")\nprint(result1)  # ['apple', 'banana', 'cherry', 'date']\ns2 = \"one,two,three,four\"\nresult2 = s2.split(\",\")\nprint(result2)  # ['one', 'two', 'three', 'four']\ns3 = \"www.example.com.page1\"\nresult3 = s3.split(\".\")\nprint(result3)  # ['www', 'example', 'com', 'page1']\ns4 = \"home/user/documents/file.txt\"\nresult4 = s4.split(\"/\")",
+        "detail": "Day  034.Homework.task3",
+        "documentation": {}
+    },
+    {
+        "label": "s2",
+        "kind": 5,
+        "importPath": "Day  034.Homework.task3",
+        "description": "Day  034.Homework.task3",
+        "peekOfCode": "s2 = \"one,two,three,four\"\nresult2 = s2.split(\",\")\nprint(result2)  # ['one', 'two', 'three', 'four']\ns3 = \"www.example.com.page1\"\nresult3 = s3.split(\".\")\nprint(result3)  # ['www', 'example', 'com', 'page1']\ns4 = \"home/user/documents/file.txt\"\nresult4 = s4.split(\"/\")\nprint(result4)  # ['home', 'user', 'documents', 'file.txt']\ns5 = \"one;two;three;four\"",
+        "detail": "Day  034.Homework.task3",
+        "documentation": {}
+    },
+    {
+        "label": "result2",
+        "kind": 5,
+        "importPath": "Day  034.Homework.task3",
+        "description": "Day  034.Homework.task3",
+        "peekOfCode": "result2 = s2.split(\",\")\nprint(result2)  # ['one', 'two', 'three', 'four']\ns3 = \"www.example.com.page1\"\nresult3 = s3.split(\".\")\nprint(result3)  # ['www', 'example', 'com', 'page1']\ns4 = \"home/user/documents/file.txt\"\nresult4 = s4.split(\"/\")\nprint(result4)  # ['home', 'user', 'documents', 'file.txt']\ns5 = \"one;two;three;four\"\nresult5 = s5.split(\";\")",
+        "detail": "Day  034.Homework.task3",
+        "documentation": {}
+    },
+    {
+        "label": "s3",
+        "kind": 5,
+        "importPath": "Day  034.Homework.task3",
+        "description": "Day  034.Homework.task3",
+        "peekOfCode": "s3 = \"www.example.com.page1\"\nresult3 = s3.split(\".\")\nprint(result3)  # ['www', 'example', 'com', 'page1']\ns4 = \"home/user/documents/file.txt\"\nresult4 = s4.split(\"/\")\nprint(result4)  # ['home', 'user', 'documents', 'file.txt']\ns5 = \"one;two;three;four\"\nresult5 = s5.split(\";\")\nprint(result5)  # ['one', 'two', 'three', 'four']\ns6 = \"2024-07-30\"",
+        "detail": "Day  034.Homework.task3",
+        "documentation": {}
+    },
+    {
+        "label": "result3",
+        "kind": 5,
+        "importPath": "Day  034.Homework.task3",
+        "description": "Day  034.Homework.task3",
+        "peekOfCode": "result3 = s3.split(\".\")\nprint(result3)  # ['www', 'example', 'com', 'page1']\ns4 = \"home/user/documents/file.txt\"\nresult4 = s4.split(\"/\")\nprint(result4)  # ['home', 'user', 'documents', 'file.txt']\ns5 = \"one;two;three;four\"\nresult5 = s5.split(\";\")\nprint(result5)  # ['one', 'two', 'three', 'four']\ns6 = \"2024-07-30\"\nresult6 = s6.split(\"-\")",
+        "detail": "Day  034.Homework.task3",
+        "documentation": {}
+    },
+    {
+        "label": "s4",
+        "kind": 5,
+        "importPath": "Day  034.Homework.task3",
+        "description": "Day  034.Homework.task3",
+        "peekOfCode": "s4 = \"home/user/documents/file.txt\"\nresult4 = s4.split(\"/\")\nprint(result4)  # ['home', 'user', 'documents', 'file.txt']\ns5 = \"one;two;three;four\"\nresult5 = s5.split(\";\")\nprint(result5)  # ['one', 'two', 'three', 'four']\ns6 = \"2024-07-30\"\nresult6 = s6.split(\"-\")\nprint(result6)  # ['2024', '07', '30']\ns7 = \"a|b|c|d\"",
+        "detail": "Day  034.Homework.task3",
+        "documentation": {}
+    },
+    {
+        "label": "result4",
+        "kind": 5,
+        "importPath": "Day  034.Homework.task3",
+        "description": "Day  034.Homework.task3",
+        "peekOfCode": "result4 = s4.split(\"/\")\nprint(result4)  # ['home', 'user', 'documents', 'file.txt']\ns5 = \"one;two;three;four\"\nresult5 = s5.split(\";\")\nprint(result5)  # ['one', 'two', 'three', 'four']\ns6 = \"2024-07-30\"\nresult6 = s6.split(\"-\")\nprint(result6)  # ['2024', '07', '30']\ns7 = \"a|b|c|d\"\nresult7 = s7.split(\"|\")",
+        "detail": "Day  034.Homework.task3",
+        "documentation": {}
+    },
+    {
+        "label": "s5",
+        "kind": 5,
+        "importPath": "Day  034.Homework.task3",
+        "description": "Day  034.Homework.task3",
+        "peekOfCode": "s5 = \"one;two;three;four\"\nresult5 = s5.split(\";\")\nprint(result5)  # ['one', 'two', 'three', 'four']\ns6 = \"2024-07-30\"\nresult6 = s6.split(\"-\")\nprint(result6)  # ['2024', '07', '30']\ns7 = \"a|b|c|d\"\nresult7 = s7.split(\"|\")\nprint(result7)  # ['a', 'b', 'c', 'd']\ns8 = \"word1|word2|word3\"",
+        "detail": "Day  034.Homework.task3",
+        "documentation": {}
+    },
+    {
+        "label": "result5",
+        "kind": 5,
+        "importPath": "Day  034.Homework.task3",
+        "description": "Day  034.Homework.task3",
+        "peekOfCode": "result5 = s5.split(\";\")\nprint(result5)  # ['one', 'two', 'three', 'four']\ns6 = \"2024-07-30\"\nresult6 = s6.split(\"-\")\nprint(result6)  # ['2024', '07', '30']\ns7 = \"a|b|c|d\"\nresult7 = s7.split(\"|\")\nprint(result7)  # ['a', 'b', 'c', 'd']\ns8 = \"word1|word2|word3\"\nresult8 = s8.split(\"|\")",
+        "detail": "Day  034.Homework.task3",
+        "documentation": {}
+    },
+    {
+        "label": "s6",
+        "kind": 5,
+        "importPath": "Day  034.Homework.task3",
+        "description": "Day  034.Homework.task3",
+        "peekOfCode": "s6 = \"2024-07-30\"\nresult6 = s6.split(\"-\")\nprint(result6)  # ['2024', '07', '30']\ns7 = \"a|b|c|d\"\nresult7 = s7.split(\"|\")\nprint(result7)  # ['a', 'b', 'c', 'd']\ns8 = \"word1|word2|word3\"\nresult8 = s8.split(\"|\")\nprint(result8)  # ['word1', 'word2', 'word3']\ns9 = \"key:value:key2:value2\"",
+        "detail": "Day  034.Homework.task3",
+        "documentation": {}
+    },
+    {
+        "label": "result6",
+        "kind": 5,
+        "importPath": "Day  034.Homework.task3",
+        "description": "Day  034.Homework.task3",
+        "peekOfCode": "result6 = s6.split(\"-\")\nprint(result6)  # ['2024', '07', '30']\ns7 = \"a|b|c|d\"\nresult7 = s7.split(\"|\")\nprint(result7)  # ['a', 'b', 'c', 'd']\ns8 = \"word1|word2|word3\"\nresult8 = s8.split(\"|\")\nprint(result8)  # ['word1', 'word2', 'word3']\ns9 = \"key:value:key2:value2\"\nresult9 = s9.split(\":\")",
+        "detail": "Day  034.Homework.task3",
+        "documentation": {}
+    },
+    {
+        "label": "s7",
+        "kind": 5,
+        "importPath": "Day  034.Homework.task3",
+        "description": "Day  034.Homework.task3",
+        "peekOfCode": "s7 = \"a|b|c|d\"\nresult7 = s7.split(\"|\")\nprint(result7)  # ['a', 'b', 'c', 'd']\ns8 = \"word1|word2|word3\"\nresult8 = s8.split(\"|\")\nprint(result8)  # ['word1', 'word2', 'word3']\ns9 = \"key:value:key2:value2\"\nresult9 = s9.split(\":\")\nprint(result9)  # ['key', 'value', 'key2', 'value2']\ns10 = \"start..middle..end\"",
+        "detail": "Day  034.Homework.task3",
+        "documentation": {}
+    },
+    {
+        "label": "result7",
+        "kind": 5,
+        "importPath": "Day  034.Homework.task3",
+        "description": "Day  034.Homework.task3",
+        "peekOfCode": "result7 = s7.split(\"|\")\nprint(result7)  # ['a', 'b', 'c', 'd']\ns8 = \"word1|word2|word3\"\nresult8 = s8.split(\"|\")\nprint(result8)  # ['word1', 'word2', 'word3']\ns9 = \"key:value:key2:value2\"\nresult9 = s9.split(\":\")\nprint(result9)  # ['key', 'value', 'key2', 'value2']\ns10 = \"start..middle..end\"\nresult10 = s10.split(\"..\")",
+        "detail": "Day  034.Homework.task3",
+        "documentation": {}
+    },
+    {
+        "label": "s8",
+        "kind": 5,
+        "importPath": "Day  034.Homework.task3",
+        "description": "Day  034.Homework.task3",
+        "peekOfCode": "s8 = \"word1|word2|word3\"\nresult8 = s8.split(\"|\")\nprint(result8)  # ['word1', 'word2', 'word3']\ns9 = \"key:value:key2:value2\"\nresult9 = s9.split(\":\")\nprint(result9)  # ['key', 'value', 'key2', 'value2']\ns10 = \"start..middle..end\"\nresult10 = s10.split(\"..\")\nprint(result10)  # ['start', 'middle', 'end']",
+        "detail": "Day  034.Homework.task3",
+        "documentation": {}
+    },
+    {
+        "label": "result8",
+        "kind": 5,
+        "importPath": "Day  034.Homework.task3",
+        "description": "Day  034.Homework.task3",
+        "peekOfCode": "result8 = s8.split(\"|\")\nprint(result8)  # ['word1', 'word2', 'word3']\ns9 = \"key:value:key2:value2\"\nresult9 = s9.split(\":\")\nprint(result9)  # ['key', 'value', 'key2', 'value2']\ns10 = \"start..middle..end\"\nresult10 = s10.split(\"..\")\nprint(result10)  # ['start', 'middle', 'end']",
+        "detail": "Day  034.Homework.task3",
+        "documentation": {}
+    },
+    {
+        "label": "s9",
+        "kind": 5,
+        "importPath": "Day  034.Homework.task3",
+        "description": "Day  034.Homework.task3",
+        "peekOfCode": "s9 = \"key:value:key2:value2\"\nresult9 = s9.split(\":\")\nprint(result9)  # ['key', 'value', 'key2', 'value2']\ns10 = \"start..middle..end\"\nresult10 = s10.split(\"..\")\nprint(result10)  # ['start', 'middle', 'end']",
+        "detail": "Day  034.Homework.task3",
+        "documentation": {}
+    },
+    {
+        "label": "result9",
+        "kind": 5,
+        "importPath": "Day  034.Homework.task3",
+        "description": "Day  034.Homework.task3",
+        "peekOfCode": "result9 = s9.split(\":\")\nprint(result9)  # ['key', 'value', 'key2', 'value2']\ns10 = \"start..middle..end\"\nresult10 = s10.split(\"..\")\nprint(result10)  # ['start', 'middle', 'end']",
+        "detail": "Day  034.Homework.task3",
+        "documentation": {}
+    },
+    {
+        "label": "s10",
+        "kind": 5,
+        "importPath": "Day  034.Homework.task3",
+        "description": "Day  034.Homework.task3",
+        "peekOfCode": "s10 = \"start..middle..end\"\nresult10 = s10.split(\"..\")\nprint(result10)  # ['start', 'middle', 'end']",
+        "detail": "Day  034.Homework.task3",
+        "documentation": {}
+    },
+    {
+        "label": "result10",
+        "kind": 5,
+        "importPath": "Day  034.Homework.task3",
+        "description": "Day  034.Homework.task3",
+        "peekOfCode": "result10 = s10.split(\"..\")\nprint(result10)  # ['start', 'middle', 'end']",
+        "detail": "Day  034.Homework.task3",
+        "documentation": {}
+    },
+    {
+        "label": "is_divisible",
+        "kind": 2,
+        "importPath": "Day  038.Homework.task1",
+        "description": "Day  038.Homework.task1",
+        "peekOfCode": "def is_divisible(n, x, y):\n    if n % x == 0 and n % y == 0:\n        return True\n    return False\ndef is_divisible(n, x, y):\n    return n % x == 0 and n % y == 0",
+        "detail": "Day  038.Homework.task1",
+        "documentation": {}
+    },
+    {
+        "label": "is_divisible",
+        "kind": 2,
+        "importPath": "Day  038.Homework.task1",
+        "description": "Day  038.Homework.task1",
+        "peekOfCode": "def is_divisible(n, x, y):\n    return n % x == 0 and n % y == 0",
+        "detail": "Day  038.Homework.task1",
+        "documentation": {}
+    },
+    {
+        "label": "array_plus_array",
+        "kind": 2,
+        "importPath": "Day  038.Homework.task2",
+        "description": "Day  038.Homework.task2",
+        "peekOfCode": "def array_plus_array(arr1, arr2):\n    return sum(arr1) + sum(arr2)\ndef array_plus_array(arr1, arr2):\n    return sum(arr1 + arr2)",
+        "detail": "Day  038.Homework.task2",
+        "documentation": {}
+    },
+    {
+        "label": "array_plus_array",
+        "kind": 2,
+        "importPath": "Day  038.Homework.task2",
+        "description": "Day  038.Homework.task2",
+        "peekOfCode": "def array_plus_array(arr1, arr2):\n    return sum(arr1 + arr2)",
+        "detail": "Day  038.Homework.task2",
+        "documentation": {}
+    },
+    {
+        "label": "say_hello",
+        "kind": 2,
+        "importPath": "Day  038.Homework.task4",
+        "description": "Day  038.Homework.task4",
+        "peekOfCode": "def say_hello(name, city, state):\n    name1 = \"\"\n    for i in name:\n        name1 += i + \" \"\n    name1 = name1[:-1]\n    return f\"Hello, {name1}! Welcome to {city}, {state}!\"\ndef say_hello(name, city, state):\n    return f\"Hello, {name}! Welcome to {city}, {state}!''",
+        "detail": "Day  038.Homework.task4",
+        "documentation": {}
+    },
+    {
+        "label": "say_hello",
+        "kind": 2,
+        "importPath": "Day  038.Homework.task4",
+        "description": "Day  038.Homework.task4",
+        "peekOfCode": "def say_hello(name, city, state):\n    return f\"Hello, {name}! Welcome to {city}, {state}!''",
+        "detail": "Day  038.Homework.task4",
+        "documentation": {}
+    },
+    {
+        "label": "points",
+        "kind": 2,
+        "importPath": "Day  038.Homework.task5",
+        "description": "Day  038.Homework.task5",
+        "peekOfCode": "def points(games):\n    score = 0\n    for i in games:\n        i = i.split(\":\")\n        if i[0] > i[1]:\n            score += 3\n        elif i[0] == i[1]:\n            score += 1\n    return score\ndef points(games):",
+        "detail": "Day  038.Homework.task5",
+        "documentation": {}
+    },
+    {
+        "label": "points",
+        "kind": 2,
+        "importPath": "Day  038.Homework.task5",
+        "description": "Day  038.Homework.task5",
+        "peekOfCode": "def points(games):\n     return sum(3 if x > y else 1 if x == y else 0 for x, y in (game.split(\":\") for game in games))",
+        "detail": "Day  038.Homework.task5",
+        "documentation": {}
+    },
+    {
+        "label": "feast",
+        "kind": 2,
+        "importPath": "Day  038.Homework.tqask3",
+        "description": "Day  038.Homework.tqask3",
+        "peekOfCode": "def feast(beast, dish):\n    beast_first_and_last = beast[0] + beast[-1]\n    dish_first_and_last = dish[0] + dish[-1]\n    return beast_first_and_last == dish_first_and_last\ndef feast(beast, dish):\n    return beast[0] + beast[-1] == dish[0] + dish[-1]",
+        "detail": "Day  038.Homework.tqask3",
+        "documentation": {}
+    },
+    {
+        "label": "feast",
+        "kind": 2,
+        "importPath": "Day  038.Homework.tqask3",
+        "description": "Day  038.Homework.tqask3",
+        "peekOfCode": "def feast(beast, dish):\n    return beast[0] + beast[-1] == dish[0] + dish[-1]",
+        "detail": "Day  038.Homework.tqask3",
+        "documentation": {}
+    },
+    {
+        "label": "words",
+        "kind": 5,
+        "importPath": "Day  042.Homework.task2",
+        "description": "Day  042.Homework.task2",
+        "peekOfCode": "words = [\"Hello\", \"world\", \"from\", \"Python\"]\n# სტრინგი, რომელიც გამოიყენება სტრინგების გაწვდვისთვის\nseparator = \" \"\n# join ფუნქციის გამოყენება\nsentence = separator.join(words)\nprint(sentence)\nreplace ფუნქცია\nreplace ფუნქცია საშუალებას გვაძლევს სტრინგში ერთი ტექსტური სექრეტი ჩანაცვლდეს სხვა ტექსტური\n სექრეტით. ეს ფუნქცია უკან დაბრუნებს ახალ სტრინგს, სადაც პირველი მოცემული სექრეტი შეცვლილია მეორე მოცემული სექრეტით.\nმაგალითი:",
+        "detail": "Day  042.Homework.task2",
+        "documentation": {}
+    },
+    {
+        "label": "separator",
+        "kind": 5,
+        "importPath": "Day  042.Homework.task2",
+        "description": "Day  042.Homework.task2",
+        "peekOfCode": "separator = \" \"\n# join ფუნქციის გამოყენება\nsentence = separator.join(words)\nprint(sentence)\nreplace ფუნქცია\nreplace ფუნქცია საშუალებას გვაძლევს სტრინგში ერთი ტექსტური სექრეტი ჩანაცვლდეს სხვა ტექსტური\n სექრეტით. ეს ფუნქცია უკან დაბრუნებს ახალ სტრინგს, სადაც პირველი მოცემული სექრეტი შეცვლილია მეორე მოცემული სექრეტით.\nმაგალითი:\n# თავდაპირველი სტრინგი\ntext = \"Hello world from Python\"",
+        "detail": "Day  042.Homework.task2",
+        "documentation": {}
+    },
+    {
+        "label": "sentence",
+        "kind": 5,
+        "importPath": "Day  042.Homework.task2",
+        "description": "Day  042.Homework.task2",
+        "peekOfCode": "sentence = separator.join(words)\nprint(sentence)\nreplace ფუნქცია\nreplace ფუნქცია საშუალებას გვაძლევს სტრინგში ერთი ტექსტური სექრეტი ჩანაცვლდეს სხვა ტექსტური\n სექრეტით. ეს ფუნქცია უკან დაბრუნებს ახალ სტრინგს, სადაც პირველი მოცემული სექრეტი შეცვლილია მეორე მოცემული სექრეტით.\nმაგალითი:\n# თავდაპირველი სტრინგი\ntext = \"Hello world from Python\"\n# replace ფუნქციის გამოყენება\nnew_text = text.replace(\"world\", \"universe\")",
+        "detail": "Day  042.Homework.task2",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "Day  042.Homework.task2",
+        "description": "Day  042.Homework.task2",
+        "peekOfCode": "text = \"Hello world from Python\"\n# replace ფუნქციის გამოყენება\nnew_text = text.replace(\"world\", \"universe\")\nprint(new_text)\nკომენტარები:\ntext.replace(\"world\", \"universe\") — აქ replace ფუნქცია ეძებს \"world\"-ს და ცვლის მას \"universe\"-ით.\nეს ფუნქცია არ იცვლის თავდაპირველ სტრინგს, არამედ აბრუნებს ახალ სტრინგს.\nგამოსავალი:\ncsharp\nHello universe from Python",
+        "detail": "Day  042.Homework.task2",
+        "documentation": {}
+    },
+    {
+        "label": "new_text",
+        "kind": 5,
+        "importPath": "Day  042.Homework.task2",
+        "description": "Day  042.Homework.task2",
+        "peekOfCode": "new_text = text.replace(\"world\", \"universe\")\nprint(new_text)\nკომენტარები:\ntext.replace(\"world\", \"universe\") — აქ replace ფუნქცია ეძებს \"world\"-ს და ცვლის მას \"universe\"-ით.\nეს ფუნქცია არ იცვლის თავდაპირველ სტრინგს, არამედ აბრუნებს ახალ სტრინგს.\nგამოსავალი:\ncsharp\nHello universe from Python",
+        "detail": "Day  042.Homework.task2",
+        "documentation": {}
+    },
+    {
+        "label": "list1",
+        "kind": 5,
+        "importPath": "Day  090.Classwork.task2",
+        "description": "Day  090.Classwork.task2",
+        "peekOfCode": "list1 = [10, 20, 30, \"apple\", \"banana\"]\nprint(list1)\n# ტუპლი\ntuple1 = (1, 2, 3, \"cat\", \"dog\")\nprint(tuple1 [4])\n# სეტი\nset1 = {100, 200, 300, \"apple\", \"banana\"}\nprint(set1)",
+        "detail": "Day  090.Classwork.task2",
+        "documentation": {}
+    },
+    {
+        "label": "tuple1",
+        "kind": 5,
+        "importPath": "Day  090.Classwork.task2",
+        "description": "Day  090.Classwork.task2",
+        "peekOfCode": "tuple1 = (1, 2, 3, \"cat\", \"dog\")\nprint(tuple1 [4])\n# სეტი\nset1 = {100, 200, 300, \"apple\", \"banana\"}\nprint(set1)",
+        "detail": "Day  090.Classwork.task2",
+        "documentation": {}
+    },
+    {
+        "label": "set1",
+        "kind": 5,
+        "importPath": "Day  090.Classwork.task2",
+        "description": "Day  090.Classwork.task2",
+        "peekOfCode": "set1 = {100, 200, 300, \"apple\", \"banana\"}\nprint(set1)",
+        "detail": "Day  090.Classwork.task2",
+        "documentation": {}
+    },
+    {
+        "label": "list1",
+        "kind": 5,
+        "importPath": "Day  090.Homework.task1",
+        "description": "Day  090.Homework.task1",
+        "peekOfCode": "list1 = [10, 20, 30, \"apple\", \"banana\"]\nprint(list1)\n# ტუპლი\ntuple1 = (1, 2, 3, \"cat\", \"dog\")\nprint(tuple1 [4])\n# სეტი\nset1 = {100, 200, 300, \"apple\", \"banana\"}\nprint(set1)\n# შეგიძლიათ დაამატოთ და წაშალოთ ელემენტები. სეტში ვერ იქნებიან დუბლიკატები\n# მაგალითად გვინდა ვქმნით სიას და არ გვინდა რომ შიგნით დუბლიკანტები დავწეროტ გვინდა რომ შიგნით იყოს თითო თითო ყველაფერი მაგ:",
+        "detail": "Day  090.Homework.task1",
+        "documentation": {}
+    },
+    {
+        "label": "tuple1",
+        "kind": 5,
+        "importPath": "Day  090.Homework.task1",
+        "description": "Day  090.Homework.task1",
+        "peekOfCode": "tuple1 = (1, 2, 3, \"cat\", \"dog\")\nprint(tuple1 [4])\n# სეტი\nset1 = {100, 200, 300, \"apple\", \"banana\"}\nprint(set1)\n# შეგიძლიათ დაამატოთ და წაშალოთ ელემენტები. სეტში ვერ იქნებიან დუბლიკატები\n# მაგალითად გვინდა ვქმნით სიას და არ გვინდა რომ შიგნით დუბლიკანტები დავწეროტ გვინდა რომ შიგნით იყოს თითო თითო ყველაფერი მაგ:\n# set1 = {100, 200, 300, \"apple\", \"banana\" 200, 200, 200, } ?ამის აუთფუთი იქნება ერერი რადგან ჩვენ გუბლიკანტები გვაქვს\n# print(set1)\n# მეტი რავი ბევრ რამეშია გამოსადეგი ლისტთან მუშაობისას",
+        "detail": "Day  090.Homework.task1",
+        "documentation": {}
+    },
+    {
+        "label": "set1",
+        "kind": 5,
+        "importPath": "Day  090.Homework.task1",
+        "description": "Day  090.Homework.task1",
+        "peekOfCode": "set1 = {100, 200, 300, \"apple\", \"banana\"}\nprint(set1)\n# შეგიძლიათ დაამატოთ და წაშალოთ ელემენტები. სეტში ვერ იქნებიან დუბლიკატები\n# მაგალითად გვინდა ვქმნით სიას და არ გვინდა რომ შიგნით დუბლიკანტები დავწეროტ გვინდა რომ შიგნით იყოს თითო თითო ყველაფერი მაგ:\n# set1 = {100, 200, 300, \"apple\", \"banana\" 200, 200, 200, } ?ამის აუთფუთი იქნება ერერი რადგან ჩვენ გუბლიკანტები გვაქვს\n# print(set1)\n# მეტი რავი ბევრ რამეშია გამოსადეგი ლისტთან მუშაობისას\n# ტუპლი\ntuple1 = (1, 2, 3, \"cat\", \"dog\")",
+        "detail": "Day  090.Homework.task1",
+        "documentation": {}
+    },
+    {
+        "label": "tuple1",
+        "kind": 5,
+        "importPath": "Day  090.Homework.task1",
+        "description": "Day  090.Homework.task1",
+        "peekOfCode": "tuple1 = (1, 2, 3, \"cat\", \"dog\")\nprint(tuple1 [4])\n#  Tuple  Immutable ვერ შეცვლი, დაამატებ ან წაშლი ელემენტებს.\n#  დუბლიკატების არსებობა  Tuple შეუძლია ჰქონდეს ერთსა და იმავე ელემენტი რამდენჯერმე.\n# ტუპლი დამოსადეგია რადგან მასში შენახული მნიშვნელობა არ ვერ შეიცვლება",
+        "detail": "Day  090.Homework.task1",
+        "documentation": {}
+    },
+    {
+        "label": "point",
+        "kind": 5,
+        "importPath": "Day  090.Homework.task2",
+        "description": "Day  090.Homework.task2",
+        "peekOfCode": "point = (10, 20)\n# Destructuring\nx, y = point\nprint(f\"x: {x}, y: {y}\")\n#2\nperson = (\"ilia\", 14, \"gaoas moswavle\")\n# Destructuring\nname, age, profession = person\nprint(f\"Name: {name}, Age: {age}, Profession: {profession}\")",
+        "detail": "Day  090.Homework.task2",
+        "documentation": {}
+    },
+    {
+        "label": "person",
+        "kind": 5,
+        "importPath": "Day  090.Homework.task2",
+        "description": "Day  090.Homework.task2",
+        "peekOfCode": "person = (\"ilia\", 14, \"gaoas moswavle\")\n# Destructuring\nname, age, profession = person\nprint(f\"Name: {name}, Age: {age}, Profession: {profession}\")",
+        "detail": "Day  090.Homework.task2",
+        "documentation": {}
+    },
+    {
+        "label": "list1",
+        "kind": 5,
+        "importPath": "Day  090.Homework.task3",
+        "description": "Day  090.Homework.task3",
+        "peekOfCode": "list1 = [1, 2, 2, 3, 4, 4, 5, 5, 5]\ndublikantebi= set(list1)\nprint(dublikantebi)",
+        "detail": "Day  090.Homework.task3",
+        "documentation": {}
+    },
+    {
+        "label": "is_leap_year",
+        "kind": 2,
+        "importPath": "Day 106.Homework.task1",
+        "description": "Day 106.Homework.task1",
+        "peekOfCode": "def is_leap_year(year):\n    if year % 4 == 0:\n        if year % 100 == 0:\n            if year % 400 == 0:\n                return True   \n            else:\n                return False  \n        else:\n            return True  \n    else:",
+        "detail": "Day 106.Homework.task1",
+        "documentation": {}
+    },
+    {
+        "label": "year",
+        "kind": 5,
+        "importPath": "Day 106.Homework.task1",
+        "description": "Day 106.Homework.task1",
+        "peekOfCode": "year = 2000\nprint(f\"{year} is a leap year: {is_leap_year(year)}\")  \nyear = 2100\nprint(f\"{year} is a leap year: {is_leap_year(year)}\")",
+        "detail": "Day 106.Homework.task1",
+        "documentation": {}
+    },
+    {
+        "label": "year",
+        "kind": 5,
+        "importPath": "Day 106.Homework.task1",
+        "description": "Day 106.Homework.task1",
+        "peekOfCode": "year = 2100\nprint(f\"{year} is a leap year: {is_leap_year(year)}\")",
+        "detail": "Day 106.Homework.task1",
+        "documentation": {}
+    }
+]

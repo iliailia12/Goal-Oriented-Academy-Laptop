@@ -4,6 +4,7 @@
 // დააიმპორტეთ სურათი კომპონენტში და დაარენდერეთ
 
 
+/* The above code is a React component named `App` that creates a webpage layout for a pet and animal-related website. It includes various elements such as text content, buttons, images, and illustrations styled using Tailwind CSS classes. The layout is designed to be responsive and visually appealing, with a focus on showcasing the brand "Drool" and engaging users with interactive elements like buttons and illustrations. */
    function App() {
       return (
         <body className="bg-white flex items-center justify-center min-h-screen p-4">
